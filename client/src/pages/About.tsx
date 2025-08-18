@@ -5,6 +5,7 @@ import { Link } from "wouter";
 import MissionVision from "@/components/MissionVision";
 import DirectorMessage from "@/components/DirectorMessage";
 import FacilitiesSection from "@/components/FacilitiesSection";
+import WhyChoosePIET from "@/components/WhyChoosePIET";
 import {
     Breadcrumb,
     BreadcrumbList,
@@ -300,6 +301,9 @@ const About = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Why Choose PIET Section */}
+            <WhyChoosePIET />
 
             {/* Enhanced Vision and Mission Section */}
             <div className="bg-gradient-to-br from-primary/5 to-secondary/5 py-20 mb-20">
