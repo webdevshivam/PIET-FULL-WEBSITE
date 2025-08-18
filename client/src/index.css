@@ -38,17 +38,20 @@
   --input: 214.3 31.8% 91.4%;
 
   /* Color scheme based on Poornima Institute logo */
-  --primary: 247 37% 29%; /* Indigo Blue from Logo */
+  --primary: 247 37% 29%;
+  /* Indigo Blue from Logo */
   --primary-light: 247 37% 39%;
   --primary-dark: 247 37% 24%;
   --primary-foreground: 0 0% 98%;
 
-  --secondary: 0 100% 40%; /* Red from Logo */
+  --secondary: 0 100% 40%;
+  /* Red from Logo */
   --secondary-light: 0 100% 50%;
   --secondary-dark: 0 100% 30%;
   --secondary-foreground: 210 40% 98%;
 
-  --accent: 48 100% 50%; /* Yellow/Gold from Logo */
+  --accent: 48 100% 50%;
+  /* Yellow/Gold from Logo */
   --accent-light: 48 100% 60%;
 
   --accent-foreground: 222.2 47.4% 11.2%;
@@ -111,29 +114,52 @@
   }
 
   html {
-    font-size: 13px; /* Base size equivalent to 80% of 16px */
+    font-size: 13px;
+    /* Base size equivalent to 80% of 16px */
     overflow-x: hidden;
   }
 
   body {
-    margin: 0;
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    padding-top: 120px; /* Account for fixed header height */
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
   }
 
-  h1, h2, h3, h4, h5, h6, .font-heading {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .font-heading {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.2;
   }
 
-  h1 { font-size: 2.4rem; }
-  h2 { font-size: 2rem; }
-  h3 { font-size: 1.6rem; }
-  h4 { font-size: 1.4rem; }
-  h5 { font-size: 1.2rem; }
-  h6 { font-size: 1rem; }
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  h4 {
+    font-size: 1.4rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
 
   /* Modern hover effects */
   .hover-lift {
@@ -201,6 +227,7 @@
     0% {
       transform: translateY(100%);
     }
+
     100% {
       transform: translateY(-100%);
     }
@@ -233,28 +260,61 @@
 
   /* Animation keyframes */
   @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   @keyframes slideInRight {
-    from { opacity: 0; transform: translateX(50px); }
-    to { opacity: 1; transform: translateX(0); }
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
 
   @keyframes slideInLeft {
-    from { opacity: 0; transform: translateX(-50px); }
-    to { opacity: 1; transform: translateX(0); }
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
 
   @keyframes scaleUp {
-    from { opacity: 0; transform: scale(0.8); }
-    to { opacity: 1; transform: scale(1); }
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
   }
 
   @keyframes marquee {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-50%);
+    }
   }
 
   /* Animation classes */
@@ -312,19 +372,24 @@
 
 
 .my-masonry-grid {
-    display: -webkit-box; /* Not needed if modern browsers only */
-    display: -ms-flexbox; /* Not needed if modern browsers only */
-    display: flex;
-    margin-left: -1rem; /* gutter size offset */
-    width: auto;
-}
-.my-masonry-grid_column {
-    padding-left: 1rem; /* gutter size */
-    background-clip: padding-box;
+  display: -webkit-box;
+  /* Not needed if modern browsers only */
+  display: -ms-flexbox;
+  /* Not needed if modern browsers only */
+  display: flex;
+  margin-left: -1rem;
+  /* gutter size offset */
+  width: auto;
 }
 
-.my-masonry-grid_column > div {
-    margin-bottom: 1rem;
+.my-masonry-grid_column {
+  padding-left: 1rem;
+  /* gutter size */
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column>div {
+  margin-bottom: 1rem;
 }
 
 /* Loading animations for news marquee */
@@ -342,9 +407,11 @@
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
