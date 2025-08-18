@@ -87,8 +87,89 @@ const researchActivitiesData = {
         { sno: 34, activity: "Unravelling the backbone: Statistics in Data Science", participants: "100+", date: "22 November, 2023" },
         { sno: 35, activity: "Mentoring Event: Demo Day/Exhibition/Poster Presentation of Innovations/Prototypes & linkage with Innovation Ambassadors/Experts for Mentorship Support", participants: "50+", date: "16 December,2023" },
         { sno: 36, activity: "National Entrepreneurship Day", participants: "150+", date: "9 November, 2023" }
+    ],
+    "2022-23": [
+        { sno: 1, activity: "Leadership Talk with Prof. T. G. Sitharam, Hon'ble Chairman, All India Council for Technical Education (AICTE)", from: "January 30, 2023", to: "January 30, 2023" },
+        { sno: 2, activity: "2nd Edition of Poornima Hackathon", from: "March 3, 2023", to: "March 04, 2023" },
+        { sno: 3, activity: "Session on Angel Investment/VC Funding Opportunity for Early Stage Entrepreneurs", from: "March 11, 2023", to: "March 23, 2023" },
+        { sno: 4, activity: "An ISTE sponsored FDP on Advanced Tools and Techniques for Quality Research Analysis and Writing", from: "March 28, 2023", to: "March 28, 2023" },
+        { sno: 5, activity: "Workshop on Intellectual Property Rights (IPRs) and IP management for start up", from: "April 5, 2023", to: "April 06, 2023" },
+        { sno: 6, activity: "Leadership Talk on 'Exploring the Opportunity for the Start-up with Ethical and Legal Prospective'", from: "April 28, 2023", to: "April 28, 2023" },
+        { sno: 7, activity: "One Day Seminar on Innovation in game development using Python", from: "May 5, 2023", to: "May 23, 2023" },
+        { sno: 8, activity: "A workshop on IoT from IDEA to prototype: Rapid prototyping techniques", from: "May 18, 2023", to: "May 20, 2023" },
+        { sno: 9, activity: "Innovation and Entrepreneurship-G 20", from: "May 18, 2023", to: "May 18, 2023" },
+        { sno: 10, activity: "Session on Accelerators/Incubation - Opportunities for Students & Faculties - Early Stage Entrepreneurs", from: "May 18, 2023", to: "May 20, 2023" },
+        { sno: 11, activity: "Session/Panel discussion with innovation and Start-up Ecosystem Enablers from the region/state/national level", from: "June 2, 2023", to: "June 24, 2023" },
+        { sno: 12, activity: "Ideation Workshop on Integrated Manufacturing Techniques", from: "August 7, 2023", to: "August 09, 2023" },
+        { sno: 13, activity: "Student ideation program on experiential learning in IoT", from: "July 12, 2023", to: "July 14, 2023" },
+        { sno: 14, activity: "Organise Session on Lean Start-up & Minimum Viable Product/Business- Boot Camp (or) Mentoring Session", from: "August 12, 2023", to: "August 14, 2023" },
+        { sno: 15, activity: "Student Skilling Program on Design Thinking and Product Development", from: "July 24, 2023", to: "July 26, 2023" },
+        { sno: 16, activity: "Transforming Research into Publication, Patent, Project and Product Development", from: "July 26, 2023", to: "July 28, 2023" },
+        { sno: 17, activity: "Outside Participation LNMIIT Hackathon", from: "January 27, 2023", to: "January 29, 2023" },
+        { sno: 18, activity: "How to Become Entrepreneur", from: "March 11, 2023", to: "March 11, 2023" },
+        { sno: 19, activity: "Entrepreneurship the Real World Challenges & the Road Ahead", from: "Febuary 06, 2023", to: "Febuary 06, 2023" },
+        { sno: 20, activity: "Six-Days Workshop on Textual Magic: Exploring NLP with NLTK", from: "March 27, 2023", to: "April 01, 2023" },
+        { sno: 21, activity: "Workshop on 3D printing in industry 4.0", from: "January 17, 2023", to: "January 17, 2023" },
+        { sno: 22, activity: "4th International Conference on Information Management & Machine Intelligence (ICIMMI 2022)", from: "December 23, 2022", to: "December 24, 2022" },
+        { sno: 23, activity: "FDP on IoT based Product Development (using Advanced Digital Manufacturing Equipment, Tools and Resources)", from: "July 13, 2022", to: "July 15, 2022" },
+        { sno: 24, activity: "Summer Internship Program on IoT based Product Development, using Advanced Digital Manufacturing Equipment, Tools and Resources", from: "July 18, 2022", to: "August 01, 2022" },
+        { sno: 25, activity: "National level project exhibition UDHBHAV 2022", from: "August 22, 2022", to: "August 22, 2022" },
+        { sno: 26, activity: "Ideation Workshop For Students", from: "September 21, 2022", to: "September 23, 2022" },
+        { sno: 27, activity: "National Innovation Challenge at Piet, Panipat", from: "December 10, 2022", to: "December 10, 2022" },
+        { sno: 28, activity: "Session on Achieving Problem-Solution Fit & Product-Market Fit", from: "February 23, 2022", to: "February 23, 2022" },
+        { sno: 29, activity: "My Story - Motivational Session by Successful Entrepreneur/Start-up founder.", from: "November 2, 2022", to: "November 23, 2022" },
+        { sno: 30, activity: "My Story - Motivational Session by Successful Innovators.", from: "November 5, 2022", to: "November 07, 2022" },
+        { sno: 31, activity: "A Session on Design Thinking", from: "November 18, 2022", to: "November 18, 2022" },
+        { sno: 32, activity: "ABES Aicte Idea Lab Student Ambassador Regional Innovation Challenge", from: "November 18, 2022", to: "November 19, 2022" },
+        { sno: 33, activity: "Workshop on Entrepreneurship and Innovation as Career Opportunity", from: "November 23, 2022", to: "November 29, 2022" },
+        { sno: 34, activity: "Success Story by Incubate (Startup - RentNEarn)", from: "December 9, 2022", to: "December 09, 2022" },
+        { sno: 35, activity: "session on How to become a successful Entrepreneur", from: "December 10, 2022", to: "December 10, 2022" },
+        { sno: 36, activity: "Session/Workshop on Business Model Canvas (BMC)", from: "December 6, 2022", to: "December 10, 2022" },
+        { sno: 37, activity: "Entrepreneurship For Absolute Beginners", from: "December 27, 2022", to: "December 27, 2022" }
+    ],
+    "2021-22": [
+        { sno: 38, activity: "National Startup Day", from: "January 23, 2022", to: "January 23, 2022" },
+        { sno: 39, activity: "IDEATION WORKSHOP with collaboration of PIET AICTE IDEA LAB", from: "February 22, 2022", to: "February 22, 2022" },
+        { sno: 40, activity: "Design Searching and Filing", from: "February 24, 2022", to: "February 24, 2022" },
+        { sno: 41, activity: "Process of Innovation Development & Technology Readiness Level(TRL) & Commercialization of Lab Technology & Tech-Transfer", from: "January 10, 2022", to: "January 10, 2022" },
+        { sno: 42, activity: "World Intellectual Property Day", from: "January 24, 2022", to: "January 26, 2022" },
+        { sno: 43, activity: "IPR Awareness Program", from: "April 26, 2022", to: "April 26, 2022" },
+        { sno: 44, activity: "A Session on Achieving Value Proposition Fit & Business Fit", from: "June 11, 2022", to: "June 11, 2022" },
+        { sno: 45, activity: "Toycathon 2021 Nodel Center for Digital Edition", from: "May 22, 2022", to: "May 25, 2022" },
+        { sno: 46, activity: "Trends and Innovations in Healthcare It Landscape", from: "December 16, 2021", to: "December 16, 2021" },
+        { sno: 47, activity: "Campus Entrepreneur Master Class", from: "May 27, 2022", to: "May 27, 2022" },
+        { sno: 48, activity: "Session on How to Build a Startup From Bottom to Top", from: "June 10, 2022", to: "June 10, 2022" },
+        { sno: 49, activity: "Field/Exposure Visit to Pre-incubation units at Bhamashah Techno Hub, Centre, Jaipur", from: "December 3, 2022", to: "December 03, 2022" },
+        { sno: 50, activity: "Project Exhibition of Start-ups Developed & Linkage with Innovation", from: "June 25, 2022", to: "June 25, 2022" },
+        { sno: 51, activity: "An Expert Talk On Development of Company Resources through Virtualization Technology", from: "February 10, 2022", to: "February 10, 2022" },
+        { sno: 52, activity: "Workshop on Enterpreneurship skills attitude and behaviour development", from: "February 19, 2022", to: "February 19, 2022" },
+        { sno: 53, activity: "Why, What and how of patents", from: "October 27, 2021", to: "October 27, 2021" }
+    ],
+    "2020-21": [
+        { sno: 54, activity: "Workshop on Entrepreneurial Achievement Motivation", from: "May 29, 2021", to: "May 29, 2021" },
+        { sno: 55, activity: "Webinar on The Journey of a thesis of a research paper to a patent", from: "February 9, 2021", to: "February 9, 2021" },
+        { sno: 56, activity: "Rtu poornima hackathon-2021", from: "June 22, 2021", to: "June 24, 2021" },
+        { sno: 57, activity: "RTU(ATU) TEQIP III sponsored Industry Expert session on Setting up and growing business venture", from: "March 22, 2021", to: "March 23, 2021" },
+        { sno: 58, activity: "A Seminar on Industry Readiness", from: "July 10, 2021", to: "July 10, 2021" },
+        { sno: 59, activity: "Expert Session on The Journey of a thesis of a research paper to a patent", from: "February 9, 2021", to: "February 9, 2021" },
+        { sno: 60, activity: "Business Communication & Leadership Skills for Startups", from: "January 20, 2021", to: "January 20, 2021" },
+        { sno: 61, activity: "Intellectual Property Rights - 2021", from: "January 23, 2021", to: "January 23, 2021" },
+        { sno: 62, activity: "The game has changed crafting a career in new normal", from: "January 13, 2021", to: "January 13, 2021" },
+        { sno: 63, activity: "Expert Session on awareness session on Intellectual property rights, patent and Trademarks", from: "July 14, 2020", to: "July 14, 2020" },
+        { sno: 64, activity: "Utilization of Design Experiment for Assessing Quality Research", from: "June 19, 2020", to: "June 19, 2020" }
+    ],
+    "2019-20": [
+        { sno: 65, activity: "Innocity Entrepreneurship Bootcamp - 3-day program organized by Startup Oasis in association with Innocity and Gensus Edutainers", from: "July 25, 2019", to: "July 27, 2019" },
+        { sno: 66, activity: "Inauguration of Startup Accelerator Program - Genstart", from: "October 12, 2019", to: "October 12, 2019" }
+    ],
+    "2018-19": [
+        { sno: 67, activity: "IPR for Students and Faculty Members-I", from: "January 10, 2019", to: "January 10, 2019" },
+        { sno: 68, activity: "IPR for Students and Faculty Members-II", from: "January 25, 2019", to: "January 25, 2019" },
+        { sno: 69, activity: "CliffHangersByWVS organized by Writer's Voice Society supported by PBIC", from: "August 14, 2018", to: "August 24, 2018" },
+        { sno: 70, activity: "Udyamita-2018", from: "August 20, 2018", to: "August 23, 2018" },
+        { sno: 71, activity: "EAD-18 (Entrepreneurship Awareness Drive-2018) Supported by e-cell, IIT Kharagpur", from: "October 16, 2018", to: "October 16, 2018" },
+        { sno: 72, activity: "PRAYAG 2K18", from: "September 25, 2018", to: "September 28, 2018" }
     ]
-    // Additional years can be added here following the same pattern
 };
 
 const ResearchActivities = () => {
@@ -102,10 +183,10 @@ const ResearchActivities = () => {
     };
 
     const stats = [
-        { icon: Calendar, number: "100+", label: "Research Activities", gradient: "bg-gradient-to-br from-primary to-primary-dark" },
-        { icon: Users, number: "5000+", label: "Participants", gradient: "bg-gradient-to-br from-secondary to-secondary-dark" },
-        { icon: Award, number: "50+", label: "Workshops & Seminars", gradient: "bg-gradient-to-br from-green-500 to-green-600" },
-        { icon: TrendingUp, number: "25+", label: "Conferences", gradient: "bg-gradient-to-br from-purple-500 to-purple-600" }
+        { icon: Calendar, number: "200+", label: "Research Activities", gradient: "bg-gradient-to-br from-primary to-primary-dark" },
+        { icon: Users, number: "10000+", label: "Participants", gradient: "bg-gradient-to-br from-secondary to-secondary-dark" },
+        { icon: Award, number: "100+", label: "Workshops & Seminars", gradient: "bg-gradient-to-br from-green-500 to-green-600" },
+        { icon: TrendingUp, number: "50+", label: "Conferences", gradient: "bg-gradient-to-br from-purple-500 to-purple-600" }
     ];
 
     return (
@@ -131,7 +212,7 @@ const ResearchActivities = () => {
                             Activities of IPR, Entrepreneurship and Research
                         </h1>
                         <p className="text-xl text-gray-600 mb-8">
-                            Explore our comprehensive research activities, workshops, seminars, and conferences that drive innovation and entrepreneurship
+                            Explore our comprehensive research activities, workshops, seminars, and conferences that drive innovation and entrepreneurship from 2018 to 2025
                         </p>
                         
                         {/* Stats Grid */}
@@ -165,11 +246,16 @@ const ResearchActivities = () => {
                                             onClick={() => toggleSection(year)}
                                         >
                                             <span className="text-lg font-semibold text-gray-800">{year}</span>
-                                            {openSections[year] ? (
-                                                <ChevronUp className="h-5 w-5 text-gray-600" />
-                                            ) : (
-                                                <ChevronDown className="h-5 w-5 text-gray-600" />
-                                            )}
+                                            <div className="flex items-center gap-2">
+                                                <span className="text-sm bg-blue-100 text-blue-700 px-3 py-1 rounded-full">
+                                                    {activities.length} activities
+                                                </span>
+                                                {openSections[year] ? (
+                                                    <ChevronUp className="h-5 w-5 text-gray-600" />
+                                                ) : (
+                                                    <ChevronDown className="h-5 w-5 text-gray-600" />
+                                                )}
+                                            </div>
                                         </button>
                                         
                                         {openSections[year] && (
@@ -184,7 +270,14 @@ const ResearchActivities = () => {
                                                                     {year === "2023-24" && (
                                                                         <th className="border border-gray-300 px-4 py-3 text-left">Number of Participants</th>
                                                                     )}
-                                                                    <th className="border border-gray-300 px-4 py-3 text-left">Date: From-To</th>
+                                                                    {(year === "2022-23" || year === "2021-22" || year === "2020-21" || year === "2019-20" || year === "2018-19") ? (
+                                                                        <>
+                                                                            <th className="border border-gray-300 px-4 py-3 text-left">From</th>
+                                                                            <th className="border border-gray-300 px-4 py-3 text-left">To</th>
+                                                                        </>
+                                                                    ) : (
+                                                                        <th className="border border-gray-300 px-4 py-3 text-left">Date: From-To</th>
+                                                                    )}
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
@@ -197,7 +290,14 @@ const ResearchActivities = () => {
                                                                                 {(activity as any).participants || 'N/A'}
                                                                             </td>
                                                                         )}
-                                                                        <td className="border border-gray-300 px-4 py-3">{activity.date}</td>
+                                                                        {(year === "2022-23" || year === "2021-22" || year === "2020-21" || year === "2019-20" || year === "2018-19") ? (
+                                                                            <>
+                                                                                <td className="border border-gray-300 px-4 py-3">{(activity as any).from}</td>
+                                                                                <td className="border border-gray-300 px-4 py-3">{(activity as any).to}</td>
+                                                                            </>
+                                                                        ) : (
+                                                                            <td className="border border-gray-300 px-4 py-3">{(activity as any).date}</td>
+                                                                        )}
                                                                     </tr>
                                                                 ))}
                                                             </tbody>
