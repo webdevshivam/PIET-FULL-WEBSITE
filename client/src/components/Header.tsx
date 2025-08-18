@@ -1856,130 +1856,158 @@ export default function Header() {
               <i className="fas fa-graduation-cap mr-2"></i>Admission & Fees
             </Link>{" "}
           </li>
-          <li className="group relative">
-            <a
-              href="#"
-              className="block py-4 px-5 text-white hover:bg-primary-light font-medium transition-colors flex items-center"
+          <li className="py-3 border-b border-neutral-200">
+            <div className="flex justify-between items-center">
+              <a href="#" className="hover:text-primary transition-colors">
+                <i className="fas fa-user-graduate mr-2"></i>Student Life
+              </a>
+              <button
+                className="mobile-submenu-toggle text-primary"
+                onClick={() =>
+                  setMobileSubmenuState((prev) => ({
+                    ...prev,
+                    studentLife: !prev.studentLife,
+                  }))
+                }
+              >
+                <i
+                  className={`fas fa-chevron-${mobileSubmenuState.studentLife ? "up" : "down"}`}
+                ></i>
+              </button>
+            </div>
+            <ul
+              className={`pl-4 mt-2 ${mobileSubmenuState.studentLife ? "block" : "hidden"}`}
             >
-              <i className="fas fa-user-graduate mr-2"></i>Student Life
-              <i className="fas fa-chevron-down ml-2 text-xs"></i>
-            </a>
-            <div className="absolute right-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 z-50 max-h-96 overflow-y-auto opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-              <div className="py-2">
+              <li>
                 <Link
                   href="/sports"
-                  className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                  className="block py-2 hover:text-secondary transition-colors"
                 >
                   <i className="fas fa-futbol mr-2"></i>Sports Zone
                 </Link>
-
+              </li>
+              <li>
                 <Link
                   href="/nss"
-                  className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                  className="block py-2 hover:text-secondary transition-colors"
                 >
                   <i className="fas fa-hands-helping mr-2"></i>NSS Unit
                 </Link>
-
+              </li>
+              <li>
                 <a
                   href="https://drive.google.com/file/d/1VEIAJ8dgTDsxpj6RicdpVX7jMwFLBOIr/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                  className="block py-2 hover:text-secondary transition-colors"
                 >
                   <i className="fas fa-users mr-2"></i>SEDG Cell
                 </a>
-
+              </li>
+              <li>
                 <Link
                   href="/hostel-life"
-                  className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                  className="block py-2 hover:text-secondary transition-colors"
                 >
                   <i className="fas fa-bed mr-2"></i>Hostel Life
                 </Link>
-
+              </li>
+              <li>
                 <Link
                   href="/placements"
-                  className="block p-3 text-neutral-800 hover:bg-primary hover:text-whitetransition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                  className="block py-2 hover:text-secondary transition-colors"
                 >
                   <i className="fas fa-briefcase mr-2"></i>Placements
                 </Link>
-
+              </li>
+              <li>
                 <Link
                   href="/greviance"
-                  className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                  className="block py-2 hover:text-secondary transition-colors"
                 >
                   <i className="fas fa-comments mr-2"></i>Grievance Cell
                 </Link>
-
+              </li>
+              <li>
                 <Link
                   href="/health"
-                  className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                  className="block py-2 hover:text-secondary transition-colors"
                 >
                   <i className="fas fa-heartbeat mr-2"></i>Health Care
                 </Link>
-
+              </li>
+              <li>
                 <Link
                   href="/complaints"
-                  className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                  className="block py-2 hover:text-secondary transition-colors"
                 >
                   <i className="fas fa-balance-scale mr-2"></i>Complaints
                 </Link>
-
+              </li>
+              <li>
                 <Link
                   href="/complaints-registration"
-                  className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                  className="block py-2 hover:text-secondary transition-colors"
                 >
                   <i className="fas fa-edit mr-2"></i>Submit Complaint
                 </Link>
-
+              </li>
+              <li>
                 <Link
                   href="/greviance"
-                  className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                  className="block py-2 hover:text-secondary transition-colors"
                 >
                   <i className="fas fa-ban mr-2"></i>Anti Ragging
                 </Link>
-
+              </li>
+              <li>
                 <a
                   href="https://drive.google.com/file/d/1H-G1_SYhblhZ4O-q7tUHPLKVo8yYYwT3/view?usp=sharing"
                   target="__blank"
-                  className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                  className="block py-2 hover:text-secondary transition-colors"
                 >
                   <i className="fas fa-universal-access mr-2"></i>Equal Rights
                 </a>
-
+              </li>
+              <li>
                 <Link
                   href="/disable"
-                  className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                  className="block py-2 hover:text-secondary transition-colors"
                 >
                   <i className="fas fa-wheelchair mr-2"></i>Accessible Ed
                 </Link>
-
+              </li>
+              <li>
                 <Link
                   href="/annual-events"
-                  className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                  className="block py-2 hover:text-secondary transition-colors"
                 >
                   <i className="fas fa-calendar-alt mr-2"></i>Annual Events
                 </Link>
-
+              </li>
+              <li>
                 <Link
                   href="/facilties"
-                  className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                  className="block py-2 hover:text-secondary transition-colors"
                 >
                   <i className="fas fa-tools mr-2"></i>Campus Tools
                 </Link>
-
+              </li>
+              <li>
                 <Link
                   href="/hackathons"
-                  className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                  className="block py-2 hover:text-secondary transition-colors"
                 >
                   <i className="fas fa-code mr-2"></i>Hackathons
                 </Link>
-              </div>
-            </div>
+              </li>
+            </ul>
           </li>
         </ul>
       </div>
 
-      {/* REPLACE: compact search modal (no suggestions, shows results only when user types) */}
+      {/* REPLACE: compact search modal (no popular suggestions or defaults.
+                Shows only when user has typed something.) */}
       {isSearchOpen && (
         <div
           className="fixed inset-0 z-[9999] flex items-start justify-center bg-black/25"
