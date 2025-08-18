@@ -125,6 +125,18 @@ const About = () => {
             description:
                 "UHV-based programs focusing on ethics, well-being, and responsibility for complete personality development.",
         },
+        {
+            icon: <Award className="h-5 w-5" />,
+            title: "State-of-the-Art Infrastructure",
+            description:
+                "Modern campus facilities with advanced classrooms, auditoriums, libraries, and recreational spaces designed for optimal learning.",
+        },
+        {
+            icon: <TrendingUp className="h-5 w-5" />,
+            title: "Excellent Placement Records",
+            description:
+                "Outstanding placement opportunities with top-tier companies and industry leaders, ensuring bright career prospects for students.",
+        },
     ];
 
     return (
@@ -294,7 +306,7 @@ const About = () => {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
                         {highlights.map((highlight, index) => (
                             <FeatureCard key={index} {...highlight} />
                         ))}
