@@ -155,17 +155,17 @@ export default function QuickLinks() {
     {
       icon: "fas fa-graduation-cap",
       title: "Admissions",
-      href: "/admissions"
+      href: "/admission-fees"
     },
     {
       icon: "fas fa-book-open",
-      title: "Programs",
-      href: "/programs"
+      title: "Academic Calendar",
+      href: "/calendar"
     },
     {
       icon: "fas fa-calendar-alt",
-      title: "Events",
-      href: "/events"
+      title: "Annual Events",
+      href: "/annual-events"
     },
     {
       icon: "fas fa-briefcase",

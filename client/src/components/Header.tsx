@@ -421,7 +421,7 @@ export default function Header() {
     toggleSearchModal();
   };
   return (
-    <header className="bg-white shadow-lg sticky top-0 z-50 backdrop-blur-sm">
+    <header className="bg-white shadow-lg fixed top-0 left-0 right-0 z-50 backdrop-blur-sm">
       {/* Top Bar */}
       <div className="bg-gradient-primary text-white py-2 px-4">
         <div className="container mx-auto flex flex-wrap justify-between items-center">
@@ -742,13 +742,6 @@ export default function Header() {
                   </Link>
 
                   <Link
-                    href="/governing-council"
-                    className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
-                  >
-                    <i className="fas fa-users-cog mr-2"></i>Board of Governors
-                  </Link>
-
-                  <Link
                     href="/complaints"
                     className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
                   >
@@ -761,13 +754,6 @@ export default function Header() {
                     className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
                   >
                     <i className="fas fa-edit mr-2"></i>Submit Complaint
-                  </Link>
-
-                  <Link
-                    href="/management-team"
-                    className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
-                  >
-                    <i className="fas fa-users mr-2"></i> Management Team
                   </Link>
 
                   <Link
@@ -1079,10 +1065,10 @@ export default function Header() {
               <div className="absolute left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 z-50 max-h-96 overflow-y-auto opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 <div className="py-2">
                   <Link
-                    href="/complaints"
+                    href="/iic"
                     className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
                   >
-                    <i className="fas fa-shield-alt mr-2"></i>ICC
+                    <i className="fas fa-lightbulb mr-2"></i>IIC
                   </Link>
                   <Link
                     href="/ipr-cell"
@@ -1883,7 +1869,7 @@ export default function Header() {
               <i className="fas fa-user-graduate mr-2"></i>Student Life
               <i className="fas fa-chevron-down ml-2 text-xs"></i>
             </a>
-            <div className="absolute left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 z-50 max-h-96 overflow-y-auto opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+            <div className="absolute right-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 z-50 max-h-96 overflow-y-auto opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
               <div className="py-2">
                 <Link
                   href="/sports"

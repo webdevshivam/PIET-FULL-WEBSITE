@@ -185,6 +185,7 @@ function Router() {
         <Route path="/aishe" component={AISHEPage} />
         <Route path="/iso-certificate" component={ISOCertificatePage} />
         <Route path="/electoral-literacy-forum" component={ElectoralLiteracyForum} />
+        <Route path="/projects" component={() => <div className="min-h-screen bg-neutral-50 flex items-center justify-center"><div className="text-center"><h1 className="text-4xl font-bold text-primary mb-4">Projects</h1><p className="text-neutral-600">Projects page is under development</p></div></div>} />
         <Route path="/:rest*" component={NotFound} />
       </Switch>
     </>
