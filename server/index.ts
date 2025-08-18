@@ -2,23 +2,24 @@ import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
 import { connectDatabase } from "./config/database";
-import session from 'express-session';
+import session from "express-session";
 
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.use(session({
-  secret: process.env.SESSION_SECRET || 'your-session-secret',
-  resave: false,
-  saveUninitialized: false,
-  cookie: {
-    secure: false, // Set to true in production with HTTPS
-    httpOnly: true,
-    maxAge: 24 * 60 * 60 * 1000 // 24 hours
-  }
-}));
-
+app.use(
+  session({
+    secret: process.env.SESSION_SECRET || "your-session-secret",
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+      secure: false, // Set to true in production with HTTPS
+      httpOnly: true,
+      maxAge: 24 * 60 * 60 * 1000, // 24 hours
+    },
+  }),
+);
 
 app.use((req, res, next) => {
   const start = Date.now();
@@ -64,8 +65,8 @@ app.use((req, res, next) => {
     throw err;
   });
 
-  const server = app.listen(5000, 'localhost', () => {
-    console.log("server is running on localhost:5000");
+  const server = app.listen(5000, "0.0.0.0", () => {
+    console.log("server is running on 0.0.0.0:5000");
   });
 
   if (app.get("env") === "development") {
