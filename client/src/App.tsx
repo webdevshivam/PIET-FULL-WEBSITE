@@ -88,6 +88,7 @@ import AISHEPage from "./pages/AISHE";
 import ISOCertificatePage from "./pages/ISOCertificate";
 import ElectoralLiteracyForum from "./pages/ElectoralLiteracyForum";
 import Hackathons from "./pages/Hackathons";
+import StudentCouncil from "./pages/StudentCouncil";
 
 function Router() {
   return (
@@ -141,54 +142,15 @@ function Router() {
         <Route path="/ipr-cell" component={IPRCell} />
         <Route path="/industry-institute-innovation" component={IndustryInstituteInnovation} />
         <Route path="/research-activities" component={ResearchActivities} />
-        <Route path="/pbic" component={pbic} />
-        <Route path="/sports" component={SportsFacilities} />
-        <Route path="/hostel-facilties" component={HostelFacilities} />
-        <Route path="/placements" component={PlacementPage} />
-        <Route path="/greviance" component={Grievances} />
-        <Route path="/icc" component={ICC} />
-        <Route path="/iic" component={IIC} />
-        <Route path="/interaction" component={Interaction} />
-        <Route path="/icc-old" component={ICCPage} />
-        <Route path="/ideal-lab" component={IdealLab} />
-        <Route path="/pietiste" component={PIETISTE} />
-        <Route path="/iee" component={IEEEPage} />
-        <Route path="/iete" component={IETEPage} />
-        <Route path="/nss" component={NSS} />
-        <Route path="/health" component={Health} />
-        <Route path="/disable" component={Disables} />
-        <Route path="/facilties" component={Facilties} />
-        <Route path="/hackathons" component={Hackathons} />
-        <Route path="/publications" component={Publications} />
-        <Route path="/literacy-forum" component={LiteracyForum} />
-        <Route path="/acm" component={AcmChapter} />
-        <Route path="/annual-events" component={AnnualEventsPage} />
         <Route path="/annual-report" component={AnnualReport} />
+        <Route path="/annual-events" component={AnnualEventsPage} />
         <Route path="/annual-account" component={AnnualAccount} />
-        <Route path="/governing-concil" component={GoverningCouncil} />
-        <Route path="/nep" component={NEPPage} />
-        <Route path="/naac" component={NaacFirstCycle} />
-        <Route path="/nirf" component={NirfPage} />
-        <Route path="/qiv-ranking" component={QivRankingPage} />
-        <Route path="/times-ranking" component={TimesRankingPage} />
-        <Route path="/e-library" component={ELibrary} />
-        <Route path="/nba" component={NbaPage} />
-        <Route path="/obe" component={OBE} />
-        <Route path="/literacy-form" component={LiteracyForm} />
-        <Route path="/iqac" component={IQACPage} />
-        <Route path="/ipr-active" component={EventPage} />
-        <Route path="/hostel-life" component={HostelLife} />
-        <Route path="/iste" component={ISTEPage} />
-        <Route path="/mission-vision" component={MissionVision} />
-        <Route path="/admission-fees" component={AdmissionFees} />
-        <Route path="/qs-gauge" component={QSGaugePage} />
-        <Route path="/qiv-ranking" component={Qiv} />
-        <Route path="/times-ranking" component={TimesRanking} />
-        <Route path="/aishe" component={AISHEPage} />
-        <Route path="/iso-certificate" component={ISOCertificatePage} />
-        <Route path="/electoral-literacy-forum" component={ElectoralLiteracyForum} />
-        <Route path="/projects" component={() => <div className="min-h-screen bg-neutral-50 flex items-center justify-center"><div className="text-center"><h1 className="text-4xl font-bold text-primary mb-4">Projects</h1><p className="text-neutral-600">Projects page is under development</p></div></div>} />
-        <Route path="/:rest*" component={NotFound} />
+        <Route path="/calendar" component={CalendarPage} />
+        <Route path="/student-council" component={StudentCouncil} />
+        <Route path="/not-found" component={NotFound} />
+        <Route>
+          <NotFound />
+        </Route>
       </Switch>
     </>
   );
