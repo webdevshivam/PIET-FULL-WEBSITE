@@ -1,0 +1,1815 @@
+<div class="text-center"><img src="images/council/councillogo.png" alt="" width="100%"></div>]
+<div id="About">
+    <h1 class="heading-h2 text-center text-light" style="background-color: black;">Introduction</h1>
+    <p style="text-align: justify; padding: 40px; font-size: 20px; font-family: 'Times New Roman', Times, serif;">
+      The future of India sits on our benches in class everyday and we at Poornima
+      Institute of Engineering &amp; Technology believe that to make the future of a nation better equipped
+      in all respects is our moral responsibility. We take pride in introducing the idea of a student
+      Council from the session 2019-20.To empower our youth, to strengthen their roots, to make them
+      world leaders and to polish their skills the student Council shall play an eminent role.Poornima
+      believes that we are creating Global citizens today and this concept of student Council shall help
+      create strong individuals with a vision of the future.</p>
+      <h1 class="heading-h2 text-center text-light" style="background-color: black;">Objectives</h1>
+    <p style="text-align: justify; padding: 40px; font-size: 20px; font-family: 'Times New Roman', Times, serif;">To develop the best in a student during the college life and to make a confident,
+      matured and an vivid personality with the best abilities inculcated in them which bring about
+      empathy for the lesser blessed and help them serve the community for its welfare and
+      encouraging the society for the betterment in every aspects of life with their leadership qualities
+      and sound skills. <br><br>
+      The Students’ council will consist of a hierarchy initializing with the Chair &amp; 2 Co-Chairs of the
+      council.</p>
+      <h1 class="heading-h2 text-center text-light" style="background-color: black;">Benefits to the members of Student's Council</h1>
+      <ul style="font-size: 20px;">
+        <li>Completely Student Driven, Student run council with least intervention of Management.</li>
+        <li>It will empower the student to become responsible and develops leadership qualities.</li>
+        <li>Certificate for volunteering will be given to each individual upon successful completion of the term.</li>
+        <li>Student member availing college transport will have the liberty to use faculty bus service on Tuesday, Thursday and Saturday.</li>
+        <li>10 Bonus Attendance will be given against time taken out to plan various meetings &amp; activities.</li>
+        <li>It will foster a strong sense of community within its members.</li>
+        <li>An Annual budget of INR 100000 will be provided to the council for marketing of various activities planned &amp; executed throughout the year.</li>
+      </ul>
+  </div>
+
+<div id="HOD-Message">
+    <section class="about py-5 bg-light rounded" style="margin: auto; ">
+      <div class="container">
+        <h1 class="heading-h2 text-center text-light rounded" style="background-color: #444444;">Message</h1>
+      <div class="text-center"><svg width="54" height="5" viewBox="0 0 54 5" fill="none" xmlns="http://www.w3.org/2000/svg" id="" class="topicon replaced-svg">
+      <rect width="54" height="5" fill="#2E3192"></rect>
+      </svg></div>
+   <div class="row pt-4">
+      <div class="d-flex flex-column justify-content-center align-items-center col-md-4 aos-init aos-animate" data-aos="fade-right" data-aos-duration="3000">
+        <img src="images/faculty1styr/AshokKumar.png" alt="about" class="img-fluid" style="border-radius: 50%; width: 50%;;">
+        <h2 class="text-primary">Mr. Ashok Kumar </h2>
+        <h3 class="text-primary">Faculty Advisor<br>Student's Council
+      </h3></div>
+      <div class="col-md-8 align-self-center pt-3 pt-md-0 aos-init aos-animate" data-aos="fade-left" data-aos-duration="3000">
+      <p class=" mb-0 text-dark" style="font-size: 20px; font-family: 'Times New Roman', Times, serif; text-align: justify;">The Students' Council serves as a vital communication link between the Management and students, fostering effective dialogue. It plays a key role in planning and nurturing diverse interests such as cultural, sports, social, recreational, and educational activities within the institution. Through active involvement in the Students' Council, students can contribute to the development of their leadership skills, engage in program planning, and participate in volunteering opportunities.<br><br>
+        Every significant journey begins with a single step, just as a graph depicting rapid development starts with a solitary dot. Therefore, it is highly recommended that all students of the institution consider joining the Students' Council. This experience not only promises enjoyable moments but also forms enduring connections and friendships that provide unwavering support during both challenging and rewarding times. <br> <br>
+        "Embrace the opportunity to make new friends, forge lasting bonds, and embark on a journey of learning and growth by becoming a part of your Students' Council."<br><br>
+         </p>
+      </div>
+    </div>
+      </div>
+    </section>
+  </div>
+
+<div id="About">
+    <h1 class="heading-h2 text-center text-light" style="background-color: black;">Constitution of Student's Council</h1>
+    <ul style="font-size: 20px;">
+      <li>1 Faculty Advisor: Mr. Ashok Kumar</li>
+      <li>1 Chair: from III year</li>
+      <li>2 Co-Chairs from II Years</li>
+      <li>1 Captain of Each Club from II Year</li>
+      <li>1 Vice-Captain of each club from I Year</li>
+    </ul>
+  </div>
+<div class="container my-4">
+    <h1 class="text-center text-light rounded" style="background-color: black;">Student's Council Clubs</h1>
+    <div class="row my-5">
+      <div class="col-md-4 col-12 logo-card">
+        <a href="literary.html"> <img class="logo-partner" src="images/council/literary.png" alt=""></a> 
+      </div>
+      <div class="col-md-4 col-12 logo-card">
+        <a href="ac.html"> <img class="logo-partner" src="images/council/ac.png" alt=""></a> 
+      </div>
+      <div class="col-md-4 col-12 logo-card">
+        <a href="uam.html"> <img class="logo-partner" src="images/council/uam.png" alt=""></a> 
+      </div>
+      <div class="col-md-4 col-12 logo-card">
+        <a href="hh.html"> <img class="logo-partner" src="images/council/hh.png" alt=""></a> 
+      </div>
+      <div class="col-md-4 col-12 logo-card">
+        <a href="wise.html"> <img class="logo-partner" src="images/council/wise.png" alt=""></a> 
+      </div>
+      <div class="col-md-4 col-12 logo-card">
+        <a href="jdc.html"><img class="logo-partner" src="images/council/jdc.png" alt="" width="50%" style="display: block; margin: 0 auto;">
+        </a>
+      </div>
+      <div class="col-md-4 col-12 logo-card">
+        <a href="debug.html"> <img class="logo-partner" src="images/council/debug.png" alt=""></a> 
+      </div>
+      <div class="col-md-4 col-12 logo-card">
+        <a href="IDEALAB.html"> <img class="logo-partner" src="images/council/idea.png" alt=""></a> 
+      </div>
+      <div class="col-md-4 col-12 logo-card">
+        <a href="" target="_blank"> <img class="logo-partner" src="images/council/dk.png" alt=""></a> 
+      </div>
+      <div class="col-md-4 col-12 logo-card">
+        <a href="gnd.html"> <img class="logo-partner" src="images/council/gnd.png" alt="" width="90%"></a> 
+      </div>
+      <div class="col-md-4 col-12 logo-card">
+        <a href="#"> <img class="logo-partner" src="images/council/pp.png" alt=""></a> 
+      </div>
+      <div class="col-md-4 col-12 logo-card">
+        <a href="pbic.html"> <img class="logo-partner" src="images/council/pbic.png" alt="" style="height: 20vh;"></a> 
+      </div>
+      <div class="col-md-4 col-12 logo-card">
+        <a href="sports.html"> <img class="logo-partner" src="images/council/sports.png" alt=""></a> 
+      </div>
+      <div class="col-md-4 col-12 logo-card">
+        <a href="#" target="_blank"> <img class="logo-partner" src="images/council/origin.png" alt=""></a> 
+      </div>
+      <div class="col-md-4 col-12 logo-card">
+        <a href="https://www.piet.poornima.org/ISTE.html" target="_blank"> <img class="logo-partner" height="300pxs" src="images/council/iste.png" alt=""></a> 
+      </div>
+       <div class="col-md-4 col-12 logo-card">
+        <a href="https://www.piet.poornima.org/IEEE.html" target="_blank"> <img class="logo-partner" height="200pxs" src="images/council/ieee.png" alt=""></a> 
+      </div>
+       <div class="col-md-4 col-12 logo-card">
+        <a href="https://www.piet.poornima.org/ACM.html" target="_blank"> <img class="logo-partner" height="300pxs" src="images/council/acm.png" alt=""></a> 
+      </div>
+       <div class="col-md-4 col-12 logo-card">
+        <a href="#" target="_blank"> <img class="logo-partner" height="300pxs" src="images/council/cyborgs.png" alt=""></a> 
+      </div>
+       <div class="col-md-4 col-12 logo-card">
+        <a href="#" target="_blank"> <img class="logo-partner" height="300pxs" src="images/council/Logo_AWS.jpg" alt=""></a> 
+      </div>
+       <div class="col-md-4 col-12 logo-card">
+        <a href="#" target="_blank"> <img class="logo-partner" height="300pxs" src="images/council/graduateGateway.jpg" alt=""></a> 
+      </div>
+       <div class="col-md-4 col-12 logo-card">
+        <a href="#" target="_blank"> <img class="logo-partner" height="300pxs" src="images/council/MSLearn_SA.png" alt=""></a> 
+      </div>
+       <div class="col-md-4 col-12 logo-card">
+        <a href="#" target="_blank"> <img class="logo-partner" height="300pxs" src="images/council/spic_macay.jpg" alt=""></a> 
+      </div>
+       <div class="col-md-4 col-12 logo-card">
+        <a href="#" target="_blank"> <img class="logo-partner" height="300pxs" src="images/council/vibrantVision.png" alt=""></a> 
+      </div>
+
+      
+    </div>
+  </div>
+<h1 class="text-center text-light rounded m-3" style="background-color: #444;">Student's Council</h1>
+<div class="container bg-light p-5 rounded mt-3" style="box-shadow: 2px 2px 2px 2px ;">
+      <div class="accordion" id="accordionExample">
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTen">
+              <button class="accordion-button acc_btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                  Council 2024-25
+              </button>
+            </h2>
+            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample" style="">
+              <div class="accordion-body">
+                <div>
+                  <img class="img-fluid" src="images/council/council24-25.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button acc_btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Council 2023-24
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+              <div class="accordion-body">
+                <div>
+                  <img class="img-fluid" src="images/council/council23-24.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button acc_btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Council 2022-23
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
+            <div class="accordion-body">
+              <div>
+                <img class="img-fluid" src="images/council/council22-23.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed acc_btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Council 2021-22
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div>
+                <img class="img-fluid" src="images/council/council21-22.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed acc_btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFpur">
+                Council 2020-21
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div>
+                <img class="img-fluid" src="images/council/council20-21.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><h1 class="text-center text-light rounded m-3" style="background-color: #444;">Council Events Year Wise</h1>
+<div class="container bg-light p-5 rounded mt-3" style="box-shadow: 2px 2px 2px 2px ;">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed acc_btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                2023-24
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div id="table">
+                <div class="table-responsive m-4 bg-light p-2">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">S. No.</th>
+                        <th scope="col">Name of Activity</th>
+                        <th scope="col">Club</th>
+    
+                      </tr>
+                    </thead>
+                    <tbody>
+                     
+                      <tr>
+                          <td>1</td>
+                          <td>KALANIDHI</td>
+                          <td>Council</td>
+                      </tr>
+                      <tr>
+                          <td>2</td>
+                          <td>Freshers</td>
+                          <td>Council</td>
+                      </tr>
+                      <tr>
+                          <td>3</td>
+                          <td>Onboarding Session</td>
+                          <td>PBIC</td>
+                      </tr>
+                      <tr>
+                          <td>4</td>
+                          <td>Entrepreneurship Awareness Drive</td>
+                          <td>PBIC</td>
+                      </tr>
+                      <tr>
+                          <td>5</td>
+                          <td>AWS Community</td>
+                          <td>PBIC</td>
+                      </tr>
+                      <tr>
+                          <td>6</td>
+                          <td>Entrepreneurship Workshop</td>
+                          <td>PBIC</td>
+                      </tr>
+                      <tr>
+                          <td>7</td>
+                          <td>Networking Session</td>
+                          <td>PBIC</td>
+                      </tr>
+                      <tr>
+                          <td>8</td>
+                          <td>Startup EXPO</td>
+                          <td>PBIC</td>
+                      </tr>
+                      <tr>
+                          <td>9</td>
+                          <td>Shark Tank</td>
+                          <td>PBIC</td>
+                      </tr>
+                      <tr>
+                          <td>10</td>
+                          <td>SILENT TOLL ( JAM)</td>
+                          <td>WISE</td>
+                      </tr>
+                      <tr>
+                          <td>11</td>
+                          <td>"Nurturing Mental Wellness" (session)</td>
+                          <td>WISE</td>
+                      </tr>
+                      <tr>
+                          <td>12</td>
+                          <td>"Expressing Insights" (Essay competition)</td>
+                          <td>WISE</td>
+                      </tr>
+                      <tr>
+                          <td>13</td>
+                          <td>"Wellness In Motion" (session) &amp; Zumba workshop</td>
+                          <td>WISE</td>
+                      </tr>
+                      <tr>
+                          <td>14</td>
+                          <td>IIT JODHPUR SPORTS FEST</td>
+                          <td>SPORTS</td>
+                      </tr>
+                      <tr>
+                          <td>15</td>
+                          <td>RTU INTER COLLAGE TOURNAMENTS (BASKETBALL, VOLLEYBALL, HANDBALL, CHESS, KABADDI, BADMINTON, TABLE TENNIS, FOOTBALL, CRICKET)</td>
+                          <td>SPORTS</td>
+                      </tr>
+                      <tr>
+                          <td>16</td>
+                          <td>Garba Workshop</td>
+                          <td>DK</td>
+                      </tr>
+                      <tr>
+                          <td>17</td>
+                          <td>Rythmic Fusion- Dance Competition</td>
+                          <td>DK</td>
+                      </tr>
+                      <tr>
+                          <td>18</td>
+                          <td>Vocal Venture- Singing Competition</td>
+                          <td>DK</td>
+                      </tr>
+                      <tr>
+                          <td>19</td>
+                          <td></td>
+                          <td>SPORTS</td>
+                      </tr>
+                      <tr>
+                          <td>20</td>
+                          <td>Solo Dance Competition</td>
+                          <td>DK</td>
+                      </tr>
+                      <tr>
+                          <td>21</td>
+                          <td>Duo Dance Competition</td>
+                          <td>DK</td>
+                      </tr>
+                      <tr>
+                          <td>22</td>
+                          <td>Dance Battle</td>
+                          <td>DK</td>
+                      </tr>
+                      <tr>
+                          <td>23</td>
+                          <td>Rap Rampage</td>
+                          <td>DK</td>
+                      </tr>
+                      <tr>
+                          <td>24</td>
+                          <td>Jamming</td>
+                          <td>DK</td>
+                      </tr>
+                      <tr>
+                          <td>25</td>
+                          <td>Paper Dance</td>
+                          <td>DK</td>
+                      </tr>
+                      <tr>
+                          <td>26</td>
+                          <td>Jodi no 1</td>
+                          <td>DK</td>
+                      </tr>
+                      <tr>
+                          <td>27</td>
+                          <td>Sonic Box</td>
+                          <td>DK</td>
+                      </tr>
+                      <tr>
+                          <td>28</td>
+                          <td>Dress Dash</td>
+                          <td>DK</td>
+                      </tr>
+                      <tr>
+                          <td></td>
+                          <td>Introductory Session</td>
+                          <td>PP</td>
+                      </tr>
+                      <tr>
+                          <td>29</td>
+                          <td>Photowalk</td>
+                          <td>PP</td>
+                      </tr>
+                      <tr>
+                          <td>30</td>
+                          <td>Premiere pro workshop</td>
+                          <td>PP</td>
+                      </tr>
+                      <tr>
+                          <td>31</td>
+                          <td>Muskan 2.0</td>
+                          <td>HHG</td>
+                      </tr>
+                      <tr>
+                          <td>32</td>
+                          <td>World sight Day</td>
+                          <td>HHG</td>
+                      </tr>
+                      <tr>
+                          <td>33</td>
+                          <td>Vastradaan 3.0</td>
+                          <td>HHG</td>
+                      </tr>
+                      <tr>
+                          <td>34</td>
+                          <td>Blanket donation 3.0</td>
+                          <td>HHG</td>
+                      </tr>
+                      <tr>
+                          <td>35</td>
+                          <td>Uttrayan 2.0</td>
+                          <td>HHG</td>
+                      </tr>
+                      <tr>
+                          <td>36</td>
+                          <td>Utsav promotional activity</td>
+                          <td>HHG</td>
+                      </tr>
+                      <tr>
+                          <td>37</td>
+                          <td>Utsav The shared birthday</td>
+                          <td>HHG</td>
+                      </tr>
+                      <tr>
+                          <td>38</td>
+                          <td>Introductory Session</td>
+                          <td>G&amp;D</td>
+                      </tr>
+                      <tr>
+                          <td>39</td>
+                          <td>Blender Session</td>
+                          <td>G&amp;D</td>
+                      </tr>
+                      <tr>
+                          <td>40</td>
+                          <td>BGMI</td>
+                          <td>G&amp;D</td>
+                      </tr>
+                      <tr>
+                          <td>41</td>
+                          <td>Valorant</td>
+                          <td>G&amp;D</td>
+                      </tr>
+                      <tr>
+                          <td>42</td>
+                          <td>VARCHAR 2023 Esports Trials</td>
+                          <td>G&amp;D</td>
+                      </tr>
+                      <tr>
+                          <td>43</td>
+                          <td>VARCHAR 2023 IIT Jodhpur Participation</td>
+                          <td>G&amp;D</td>
+                      </tr>
+                      <tr>
+                          <td>44</td>
+                          <td>Poster Making Competion</td>
+                          <td>Origin</td>
+                      </tr>
+                      <tr>
+                          <td>45</td>
+                          <td>Book Cover Competition</td>
+                          <td>Origin</td>
+                      </tr>
+                      <tr>
+                          <td>46</td>
+                          <td>Canvas Painting</td>
+                          <td>Origin</td>
+                      </tr>
+                      <tr>
+                          <td>48</td>
+                          <td>CAT-Session</td>
+                          <td>Aptineus Club</td>
+                      </tr>
+                      <tr>
+                          <td>49</td>
+                          <td>Memory Mingle</td>
+                          <td>Aptineus Club</td>
+                      </tr>
+                      <tr>
+                          <td>50</td>
+                          <td>Smartinies</td>
+                          <td>Aptineus Club</td>
+                      </tr>
+                      <tr>
+                          <td>51</td>
+                          <td>Quizeverse</td>
+                          <td>Aptineus Club</td>
+                      </tr>
+                      <tr>
+                          <td>52</td>
+                          <td>Mindfest</td>
+                          <td>Aptineus Club</td>
+                      </tr>
+                      <tr>
+                          <td>53</td>
+                          <td>Treasure Hunt</td>
+                          <td>Aptineus Club</td>
+                      </tr>
+                      <tr>
+                          <td>54</td>
+                          <td>Kanta Anumodan</td>
+                          <td>JDC</td>
+                      </tr>
+                      <tr>
+                          <td>55</td>
+                          <td>Club Auditions</td>
+                          <td>JDC</td>
+                      </tr>
+                      <tr>
+                          <td>56</td>
+                          <td>Jairangam Theater Festival</td>
+                          <td>JDC</td>
+                      </tr>
+                      <tr>
+                          <td>57</td>
+                          <td>Author's Talk</td>
+                          <td>JDC</td>
+                      </tr>
+                      <tr>
+                          <td>58</td>
+                          <td>Aarohan ki Kahani, Joshilo ki Zubani</td>
+                          <td>JDC</td>
+                      </tr>
+                      <tr>
+                          <td>59</td>
+                          <td>JDC Introduction</td>
+                          <td>JDC</td>
+                      </tr>
+                      <tr>
+                          <td>60</td>
+                          <td>Manthan 2023</td>
+                          <td>Literary Club</td>
+                      </tr>
+                      <tr>
+                          <td>61</td>
+                          <td>Corruption Chronicles: Speech competition</td>
+                          <td>Literary Club</td>
+                      </tr>
+                      <tr>
+                          <td>62</td>
+                          <td>Expressing insights: An essay writing competition</td>
+                          <td>Literary Club</td>
+                      </tr>
+                      <tr>
+                          <td>63</td>
+                          <td>Spell bees</td>
+                          <td>Literary Club</td>
+                      </tr>
+                      <tr>
+                          <td>64</td>
+                          <td>Power Hour: Posture and peace session</td>
+                          <td>HARMONY ZEN</td>
+                      </tr>
+                      <tr>
+                          <td>65</td>
+                          <td>World Health Day session</td>
+                          <td>HARMONY ZEN</td>
+                      </tr>
+                      <tr>
+                          <td>66</td>
+                          <td>Personal well-being:- a virtue Voyage</td>
+                          <td>HARMONY ZEN</td>
+                      </tr>
+                      <tr>
+                          <td>67</td>
+                          <td>Introductory session</td>
+                          <td>Debug Club</td>
+                      </tr>
+                      <tr>
+                          <td>68</td>
+                          <td>Speed Script - Typing Challenge</td>
+                          <td>Debug Club</td>
+                      </tr>
+                      <tr>
+                          <td>69</td>
+                          <td>Coding Quiz</td>
+                          <td>Debug Club</td>
+                      </tr>
+                      <tr>
+                          <td>70</td>
+                          <td>Be a 10x Engineer - Roadmap Session</td>
+                          <td>Debug Club</td>
+                      </tr>
+                      <tr>
+                          <td>71</td>
+                          <td>Code a UI</td>
+                          <td>Debug Club</td>
+                      </tr>
+                      <tr>
+                          <td>72</td>
+                          <td>MNIT Japur</td>
+                          <td>Udaan Club</td>
+                      </tr>
+                      <tr>
+                          <td>73</td>
+                          <td>Manipal University</td>
+                          <td>Udaan Club</td>
+                      </tr>
+                      <tr>
+                          <td>74</td>
+                          <td>Jecrc University (Tech expo)</td>
+                          <td>Udaan Club</td>
+                      </tr>
+                      <tr>
+                          <td>75</td>
+                          <td>SKIT</td>
+                          <td>Udaan Club</td>
+                      </tr>
+                      <tr>
+                          <td>76</td>
+                          <td>RGIPT, UP</td>
+                          <td>Udaan Club</td>
+                      </tr>
+                      <tr>
+                          <td>77</td>
+                          <td>Shayadri College</td>
+                          <td>Udaan Club</td>
+                      </tr>
+                      <tr>
+                          <td>78</td>
+                          <td>National Science Day</td>
+                          <td>Udaan Club</td>
+                      </tr>
+                      <tr>
+                          <td>79</td>
+                          <td>Rajasthan Vigyan Mahotsav</td>
+                          <td>Udaan Club</td>
+                      </tr>
+                      <tr>
+                          <td>80</td>
+                          <td>LNMIIT</td>
+                          <td>Udaan Club</td>
+                      </tr>
+                      <tr>
+                          <td>81</td>
+                          <td>Introductory session at PCE</td>
+                          <td>Udaan Club</td>
+                      </tr>
+                      <tr>
+                          <td>82</td>
+                          <td>Aadhar 2k24</td>
+                          <td>Udaan Club</td>
+                      </tr>
+                      <tr>
+                          <td>83</td>
+                          <td>BITS Pilani</td>
+                          <td>Udaan Club</td>
+                      </tr>
+
+                      
+                    </tbody>
+                  </table>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+          <button class="accordion-button collapsed acc_btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              2022-23
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="table-responsive m-4 bg-light p-2">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">S.No</th>
+                    <th scope="col">Name of Activity</th>
+                    <th scope="col">Club</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>IIT Jodhpur</td>
+                    <td>Sports Club</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rebel yell 2.O</td>
+                    <td>Gaming And Development</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Introductory session</td>
+                    <td>Literary Club</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Acrophilia skydive</td>
+                    <td>Udaan</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Vastradan</td>
+                    <td>Helping Hands</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Freshers</td>
+                    <td>Council</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Music Play</td>
+                    <td>Joshiley Drama Club</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Entrepreneur session</td>
+                    <td>PBIC</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Session</td>
+                    <td>Debug club</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>GIT intercollege sports meet</td>
+                    <td>Sports club</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Orientation 2nd and 3rd year</td>
+                    <td>Joshiley Drama Club</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Rudrika GIT</td>
+                    <td>Joshiley Drama Club</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Jigyasa</td>
+                    <td>Aptineus Club</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Self-defence session</td>
+                    <td>WISE</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>IIT Bombay</td>
+                    <td>Udaan</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>Blanket drive</td>
+                    <td>Helping Hands</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Alumni meet dance</td>
+                    <td>Desi Kalakar</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Workshop on Aruduino</td>
+                    <td>Debug</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>Orientation</td>
+                    <td>Aptineus Club</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>Musical chair &amp; arm wrestling</td>
+                    <td>Sports club</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>Faculty cricket championship</td>
+                    <td>Sports club</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>Makar Sakranti dance</td>
+                    <td>Desi Kalakar</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>Lohri &amp; Kite Flying Competition</td>
+                    <td>Council</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>Uttarayan</td>
+                    <td>Helping Hands</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>Drone Show</td>
+                    <td>Udaan</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>Nukkad Natak</td>
+                    <td>Joshiley Drama Club</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>LNM hacks</td>
+                    <td>Debug Club</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>Orphanage visit</td>
+                    <td>WISE</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>Muskan an orphanage visit</td>
+                    <td>Helping Hands</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>LMNIT plinth</td>
+                    <td>Udaan</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>Nukkad Natak JKK</td>
+                    <td>Joshiley Drama Club</td>
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td>Mind Fest</td>
+                    <td>Aptineus Club</td>
+                </tr>
+                <tr>
+                    <td>33</td>
+                    <td>Capture Flag</td>
+                    <td>Debug</td>
+                </tr>
+                <tr>
+                    <td>34</td>
+                    <td>Aeromodelling</td>
+                    <td>Udaan</td>
+                </tr>
+                <tr>
+                    <td>35</td>
+                    <td>RESPAWN</td>
+                    <td>Gaming &amp; Development</td>
+                </tr>
+                <tr>
+                    <td>36</td>
+                    <td>Mind Fest</td>
+                    <td>Aptineus Club</td>
+                </tr>
+                <tr>
+                    <td>37</td>
+                    <td>Aarohan</td>
+                    <td>Council</td>
+                </tr>
+                <tr>
+                    <td>38</td>
+                    <td>Aarohan sports competition</td>
+                    <td>Sports club</td>
+                </tr>
+                <tr>
+                    <td>39</td>
+                    <td>Stage opening dance</td>
+                    <td>Desi Kalakar</td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td>Dance with Vikalp Mehta</td>
+                    <td>Desi Kalakar</td>
+                </tr>
+                <tr>
+                    <td>41</td>
+                    <td>Treasure Hunt</td>
+                    <td>Aptineus Club</td>
+                </tr>
+                <tr>
+                    <td>42</td>
+                    <td>Women’s Day</td>
+                    <td>WISE</td>
+                </tr>
+                <tr>
+                    <td>43</td>
+                    <td>Code-E-Jung Contest</td>
+                    <td>Debug Club</td>
+                </tr>
+                <tr>
+                    <td>44</td>
+                    <td>UTSAV the shared Birthday</td>
+                    <td>Helping Hands</td>
+                </tr>
+                <tr>
+                    <td>45</td>
+                    <td>Gupshup</td>
+                    <td>WISE</td>
+                </tr>
+                <tr>
+                    <td>46</td>
+                    <td>Showcase your art</td>
+                    <td>Origin Club</td>
+                </tr>
+                <tr>
+                    <td>47</td>
+                    <td>Pages for ages story telling</td>
+                    <td>Literary Club</td>
+                </tr>
+                <tr>
+                    <td>48</td>
+                    <td>Member Recruitment / Workshop</td>
+                    <td>Joshiley Drama Club</td>
+                </tr>
+                <tr>
+                    <td>49</td>
+                    <td>Remembrance</td>
+                    <td>Aptineus Club</td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td>Auditions</td>
+                    <td>Joshiley Drama Club</td>
+                </tr>
+                <tr>
+                    <td>51</td>
+                    <td>Reel Making Competition</td>
+                    <td>Desi Kalakar</td>
+                </tr>
+                <tr>
+                    <td>52</td>
+                    <td>Web Development Workshop</td>
+                    <td>Debug Club</td>
+                </tr>
+                <tr>
+                    <td>53</td>
+                    <td>100th Weekly Coding Contest</td>
+                    <td>Debug Club</td>
+                </tr>
+                <tr>
+                    <td>54</td>
+                    <td>Art Exhibition</td>
+                    <td>Origin Club</td>
+                </tr>
+                <tr>
+                    <td>55</td>
+                    <td>Git Hub Sessions</td>
+                    <td>Debug Club</td>
+                </tr>
+                <tr>
+                    <td>56</td>
+                    <td>Video editing workshop</td>
+                    <td>Perfect Pixels</td>
+                </tr>
+                <tr>
+                    <td>57</td>
+                    <td>Git &amp; Git Hub Session</td>
+                    <td>Debug Club</td>
+                </tr>
+                <tr>
+                    <td>58</td>
+                    <td>Mother’s Day celebration</td>
+                    <td>WISE</td>
+                </tr>
+                <tr>
+                    <td>59</td>
+                    <td>Session</td>
+                    <td>Aptineus Club</td>
+                </tr>
+                <tr>
+                    <td>60</td>
+                    <td>Sangram 2. O</td>
+                    <td>Literary Club</td>
+                </tr>
+                <tr>
+                    <td>61</td>
+                    <td>Google Geeks</td>
+                    <td>Aptineus Club</td>
+                </tr>
+                <tr>
+                    <td>62</td>
+                    <td>Gaming Tournament PIET level</td>
+                    <td>Gaming &amp; Development</td>
+                </tr>
+                <tr>
+                    <td>63</td>
+                    <td>SSP</td>
+                    <td>IDEA lab</td>
+                </tr>
+                <tr>
+                    <td>64</td>
+                    <td>Session</td>
+                    <td>PBIC</td>
+                </tr>
+                <tr>
+                    <td>65</td>
+                    <td>Cloth Bag Distribution</td>
+                    <td>Helping Hands</td>
+                </tr>
+                <tr>
+                    <td>66</td>
+                    <td>Farewell</td>
+                    <td>Council</td>
+                </tr>
+                <tr>
+                    <td>67</td>
+                    <td>Human Calculator</td>
+                    <td>Aptineus Club</td>
+                </tr>
+                <tr>
+                    <td>68</td>
+                    <td>Jamming Session</td>
+                    <td>Desi Kalakar</td>
+                </tr>
+                <tr>
+                    <td>69</td>
+                    <td>Daily Quiz</td>
+                    <td>Aptineus Club</td>
+                </tr>
+                <tr>
+                    <td>70</td>
+                    <td>Badge ceremony</td>
+                    <td>Council</td>
+                </tr>
+                <tr>
+                    <td>71</td>
+                    <td>Teachers day</td>
+                    <td>Desi Kalakar</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSeven">
+          <button class="accordion-button collapsed acc_btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              2021-22
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="table-responsive m-4 bg-light p-2">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">S.No</th>
+                    <th scope="col">Name of Activity</th>
+                    <th scope="col">Club</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Brain Games</td>
+                    <td>Aptineus Club</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Extempore Competition</td>
+                    <td>Aptineus Club</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Orientation Session</td>
+                    <td>Aptineus Club</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Listening Comprehension Activity</td>
+                    <td>Aptineus Club</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>Orientation Session</td>
+                    <td>Aptineus Club</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>CODE FOR NATION</td>
+                    <td>Debug Club</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>CODEKAZE</td>
+                    <td>Debug Club</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>CODESTELLATION</td>
+                    <td>Debug Club</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>‘Webinar-Know Your Technology Better’</td>
+                    <td>Debug Club</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Introduction Of Programming World</td>
+                    <td>Debug Club</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>Guru Purnima</td>
+                    <td>ECC club</td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>Lohri and Kite Flying Celebration</td>
+                    <td>ECC club</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Amrit 2.0</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                  <tr>
+                    <td>14</td>
+                    <td>Blanket Drive</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td>Plantation Drive</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>SHARED BIRTHDAY 3.0</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                  <tr>
+                    <td>17</td>
+                    <td>Vastra Daan</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                  <tr>
+                    <td>18</td>
+                    <td>BUILDING AN INNOVATION &amp; PRODUCT FIT FOR PRESENT SCENARIO</td>
+                    <td>Inventive Club - Idea Lab</td>
+                  </tr>
+                  <tr>
+                    <td>19</td>
+                    <td>FDP</td>
+                    <td>Inventive Club - Idea Lab</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>FDP program</td>
+                    <td>Inventive Club - Idea Lab</td>
+                  </tr>
+                  <tr>
+                    <td>21</td>
+                    <td>Ideathon</td>
+                    <td>Inventive Club - Idea Lab</td>
+                  </tr>
+                  <tr>
+                    <td>22</td>
+                    <td>Summer internship</td>
+                    <td>Inventive Club - Idea Lab</td>
+                  </tr>
+                  <tr>
+                    <td>23</td>
+                    <td>A workshop for Idea Lab Faculty on installing and handling Idea lab machines</td>
+                    <td>Inventive Club - Idea Lab</td>
+                  </tr>
+                  <tr>
+                    <td>24</td>
+                    <td>Nukkad natak (AZADI KA AMRIT MAHOTSAV)</td>
+                    <td>JDC</td>
+                  </tr>
+                  <tr>
+                    <td>25</td>
+                    <td>Skit (College Ki Kahani, Council Ki Zubaani)</td>
+                    <td>JDC</td>
+                  </tr>
+                  <tr>
+                    <td>26</td>
+                    <td>‘What If...’</td>
+                    <td>JDC</td>
+                  </tr>
+                  <tr>
+                    <td>27</td>
+                    <td>First Year Workshop</td>
+                    <td>JDC</td>
+                  </tr>
+                  <tr>
+                    <td>28</td>
+                    <td>2nd yearWorkshop</td>
+                    <td>JDC</td>
+                  </tr>
+                  <tr>
+                    <td>29</td>
+                    <td>BLACKOUT POETRY</td>
+                    <td>Literary Club</td>
+                  </tr>
+                  <tr>
+                    <td>30</td>
+                    <td>interaction session</td>
+                    <td>Literary Club</td>
+                  </tr>
+                  <tr>
+                    <td>31</td>
+                    <td>LEKH 2.0</td>
+                    <td>Literary Club</td>
+                  </tr>
+                  <tr>
+                    <td>32</td>
+                    <td>Pen Your Voice</td>
+                    <td>Literary Club</td>
+                  </tr>
+                  <tr>
+                    <td>33</td>
+                    <td>ART THERAPY</td>
+                    <td>Origin</td>
+                  </tr>
+                  <tr>
+                    <td>34</td>
+                    <td>National Girl Child Day</td>
+                    <td>Origin</td>
+                  </tr>
+                  <tr>
+                    <td>35</td>
+                    <td>Pixels Art</td>
+                    <td>Origin</td>
+                  </tr>
+                  <tr>
+                  <td>36</td>
+                  <td>WORLD EMOJI DAY</td>
+                  <td>Origin</td>
+                  </tr>
+                  <tr>
+                  <td>37</td>
+                  <td>An Expert Session on “DON’T DREAM ABOUT SUCCESS, WORK FOR IT”</td>
+                  <td>PBIC</td>
+                  </tr>
+                  <tr>
+                  <td>38</td>
+                  <td>Pitch it</td>
+                  <td>PBIC</td>
+                  </tr>
+                  <tr>
+                  <td>39</td>
+                  <td>HOW TO BUILD A STARTUP FROM BOTTOM TO TOP</td>
+                  <td>PBIC</td>
+                  </tr>
+                  <tr>
+                  <td>40</td>
+                  <td>SESSION - CAMPUS ENTREPRENUER MASTER CLASS</td>
+                  <td>PBIC</td>
+                  </tr>
+                  <tr>
+                  <td>41</td>
+                  <td>Introductory Session</td>
+                  <td>Perfect Pixels</td>
+                  </tr>
+                  <tr>
+                  <td>42</td>
+                  <td>Land of Lens</td>
+                  <td>Perfect Pixels</td>
+                  </tr>
+                  <tr>
+                  <td>43</td>
+                  <td>Nightscape</td>
+                  <td>Perfect Pixels</td>
+                  </tr>
+                  <tr>
+                  <td>44</td>
+                  <td>AIESEC Session</td>
+                  <td>PIAS</td>
+                  </tr>
+                  <tr>
+                  <td>45</td>
+                  <td>Virtual Alumni Meet 2022</td>
+                  <td>PIAS</td>
+                  </tr>
+                  <tr>
+                  <td>46</td>
+                  <td>International Yoga Day</td>
+                  <td>PIAS</td>
+                  </tr>
+                  <tr>
+                  <td>47</td>
+                  <td>Website Development a Important Tool for Startup</td>
+                  <td>PIAS</td>
+                  </tr>
+                  <tr>
+                  <td>48</td>
+                  <td>National Science Day</td>
+                  <td>Science &amp; Technology</td>
+                  </tr>
+                  <tr>
+                  <td>49</td>
+                  <td>Webinar</td>
+                  <td>Science &amp; Technology</td>
+                  </tr>
+                  <tr>
+                  <td>50</td>
+                  <td>WOMEN IN TECH</td>
+                  <td>Science &amp; Technology</td>
+                  </tr>
+                  <tr>
+                  <td>51</td>
+                  <td>BGMI tournament</td>
+                  <td>Sports</td>
+                  </tr>
+                  <tr>
+                  <td>52</td>
+                  <td>JUST FLY IT!!!!</td>
+                  <td>Udaan</td>
+                  </tr>
+                  <tr>
+                  <td>53</td>
+                  <td>PATRIKA GATE EXHIBITION</td>
+                  <td>Udaan</td>
+                  </tr>
+                  <tr>
+                  <td>54</td>
+                  <td>poster making competition</td>
+                  <td>Udaan</td>
+                  </tr>
+                  <tr>
+                  <td>55</td>
+                  <td>SHEROES</td>
+                  <td>WISE</td>
+                  </tr>
+                  <tr>
+                  <td>56</td>
+                  <td>Teej Celebration</td>
+                  <td>WISE</td>
+                  </tr>
+                  <tr>
+                  <td>57</td>
+                  <td>Women's Day</td>
+                  <td>WISE</td>
+                  </tr>
+                  <tr>
+                  <td>58</td>
+                  <td>Aarohan</td>
+                  <td>council Activity</td>
+                  </tr>
+                  <tr>
+                  <td>59</td>
+                  <td>Udhbhav</td>
+                  <td>council Activity</td>
+                  </tr>
+                  <tr>
+                  <td>60</td>
+                  <td>Swachta Pakhwada</td>
+                  <td>council Activity</td>
+                  </tr>
+                  <tr>
+                  <td>61</td>
+                  <td>Foundation Day</td>
+                  <td>council Activity</td>
+                  </tr>
+                  <tr>
+                  <td>62</td>
+                  <td>Farewell 2021 (HASTA LA VISTA 2K21)</td>
+                  <td>council Activity</td>
+                  </tr>
+                  <tr>
+                  <td>63</td>
+                  <td>BADGE CEREMONY</td>
+                  <td>council Activity</td>
+                  </tr>
+                  <tr>
+                  <td>64</td>
+                  <td>Freshers 2021 (PRABHAV 2K21)</td>
+                  <td>council Activity</td>
+                  </tr>
+                  <tr>
+                  <td>65</td>
+                  <td>HAR GHAR THIRANGA</td>
+                  <td>council Activity</td>
+                  </tr>
+                  <tr>
+                  <td>66</td>
+                  <td>vaccination event</td>
+                  <td>council Activity</td>
+                  </tr>
+                  <tr>
+                  <td>67</td>
+                  <td>HOSTEL EXCURSION</td>
+                  <td>council Activity</td>
+                  </tr>
+                  <tr>
+                  <td>68</td>
+                  <td>Blood Donation Camp</td>
+                  <td>council Activity</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingEight">
+          <button class="accordion-button collapsed acc_btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+              2020-21
+          </button>
+        </h2>
+        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="table-responsive m-4 bg-light p-2">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">S.No</th>
+                    <th scope="col">Name of Activity</th>
+                    <th scope="col">Club</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>QUIZ COMPETITION</td>
+                    <td>Aptineus Club</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>ORIENTATION PROGRAM</td>
+                    <td>Aptineus Club</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>ONLINE SESSIONS</td>
+                    <td>Aptineus Club</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>NATIONAL JOURNALISM DAY</td>
+                    <td>Aptineus Club</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>FORTE QUEST</td>
+                    <td>Aptineus Club</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Basic HTML &amp; CSS tutorials</td>
+                    <td>CYTRON CLUB</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Git &amp; Github Workshop</td>
+                    <td>CYTRON CLUB</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>VOCAL FOR LOCAL</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Human Rights Day Activity</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Group Discussion on Farmers Protest</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>National Girl Child Day</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>We are Unite against Hunger</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>World Health Day</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                  <tr>
+                    <td>14</td>
+                    <td>A Small Step To Change</td>
+                    <td>JDC</td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td>National Anti-Terrorism Day</td>
+                    <td>JDC</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>International Day of Biodiversity</td>
+                    <td>JDC</td>
+                  </tr>
+                  <tr>
+                    <td>17</td>
+                    <td>World No-Tobacco Day</td>
+                    <td>JDC</td>
+                  </tr>
+                  <tr>
+                    <td>18</td>
+                    <td>GROUP DISCUSSION</td>
+                    <td>Literary Club</td>
+                  </tr>
+                  <tr>
+                    <td>19</td>
+                    <td>Lekh</td>
+                    <td>Literary Club</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Internal Activity (Write-ups)</td>
+                    <td>Literary Club</td>
+                  </tr>
+                  <tr>
+                    <td>21</td>
+                    <td>ICE BREAKER</td>
+                    <td>Literary Club</td>
+                  </tr>
+                  <tr>
+                    <td>22</td>
+                    <td>A different side of the story</td>
+                    <td>Literary Club</td>
+                  </tr>
+                  <tr>
+                    <td>23</td>
+                    <td>SANGRAM 2.0</td>
+                    <td>Origin</td>
+                  </tr>
+                  <tr>
+                    <td>24</td>
+                    <td>Interaction Session with Club Members</td>
+                    <td>Origin</td>
+                  </tr>
+                  <tr>
+                    <td>25</td>
+                    <td>National Youth Day Celebration</td>
+                    <td>Origin</td>
+                  </tr>
+                  <tr>
+                    <td>26</td>
+                    <td>Sketching Competition</td>
+                    <td>Origin</td>
+                  </tr>
+                  <tr>
+                    <td>27</td>
+                    <td>National Girl Child Day Competition</td>
+                    <td>Origin</td>
+                  </tr>
+                  <tr>
+                    <td>28</td>
+                    <td>Interaction Session</td>
+                    <td>Origin</td>
+                  </tr>
+                  <tr>
+                    <td>29</td>
+                    <td>Session on Types of Graphic Designs and Types of Font</td>
+                    <td>Origin</td>
+                  </tr>
+                  <tr>
+                    <td>30</td>
+                    <td>Canva Workshop</td>
+                    <td>Origin</td>
+                  </tr>
+                  <tr>
+                    <td>31</td>
+                    <td>INTERACTION SESSION WITH MEMBERS</td>
+                    <td>PIAS</td>
+                  </tr>
+                  <tr>
+                    <td>32</td>
+                    <td>Convocation</td>
+                    <td>PIAS</td>
+                  </tr>
+                  <tr>
+                    <td>33</td>
+                    <td>SCIENCETIEN</td>
+                    <td>Science &amp; Technology</td>
+                  </tr>
+                  <tr>
+                    <td>34</td>
+                    <td>CYBER SECURITY</td>
+                    <td>Science &amp; Technology</td>
+                  </tr>
+                  <tr>
+                    <td>35</td>
+                    <td>CRYPTOCURRENCY</td>
+                    <td>Science &amp; Technology</td>
+                  </tr>
+                  <tr>
+                    <td>36</td>
+                    <td>TREESCAPE</td>
+                    <td>Science &amp; Technology</td>
+                  </tr>
+                  <tr>
+                    <td>37</td>
+                    <td>CLOUD SERVICES</td>
+                    <td>Science &amp; Technology</td>
+                  </tr>
+                  <tr>
+                  <td>38</td>
+                  <td>START-UPS</td>
+                  <td>Science &amp; Technology</td>
+                  </tr>
+                  <tr>
+                  <td>39</td>
+                  <td>SIT-UPS CHALLENGE</td>
+                  <td>Sports</td>
+                  </tr>
+                  <tr>
+                  <td>40</td>
+                  <td>PRATIBHA</td>
+                  <td>Sports</td>
+                  </tr>
+                  <tr>
+                  <td>41</td>
+                  <td>PIET CHESS TOURNAMENT</td>
+                  <td>Sports</td>
+                  </tr>
+                  <tr>
+                  <td>42</td>
+                  <td>REBEL YELL</td>
+                  <td>Sports</td>
+                  </tr>
+                  <tr>
+                  <td>43</td>
+                  <td>EURO FIESTA</td>
+                  <td>Sports</td>
+                  </tr>
+                  <tr>
+                  <td>44</td>
+                  <td>SPORTS DAY</td>
+                  <td>Sports</td>
+                  </tr>
+                  <tr>
+                  <td>45</td>
+                  <td>PhotoPedia</td>
+                  <td>Udaan</td>
+                  </tr>
+                  <tr>
+                  <td>46</td>
+                  <td>Interaction Session</td>
+                  <td>Udaan</td>
+                  </tr>
+                  <tr>
+                  <td>47</td>
+                  <td>Online PPT Competition</td>
+                  <td>Udaan</td>
+                  </tr>
+                  <tr>
+                  <td>48</td>
+                  <td>Crafton</td>
+                  <td>Udaan</td>
+                  </tr>
+                  <tr>
+                  <td>49</td>
+                  <td>Online Commencement of Classes</td>
+                  <td>Udaan</td>
+                  </tr>
+                  <tr>
+                  <td>50</td>
+                  <td>DRIVE YOUR OWN VIBE</td>
+                  <td>DANCE &amp; MUSIC CLUB</td>
+                  </tr>
+                  <tr>
+                  <td>51</td>
+                  <td>RECITAL – A JAMMING SESSION</td>
+                  <td>DANCE &amp; MUSIC CLUB</td>
+                  </tr>
+                  <tr>
+                  <td>52</td>
+                  <td>NATIONAL GIRL CHILD DAY</td>
+                  <td>DANCE &amp; MUSIC CLUB</td>
+                  </tr>
+                  <tr>
+                  <td>53</td>
+                  <td>REPUBLIC DAY</td>
+                  <td>DANCE &amp; MUSIC CLUB</td>
+                  </tr>
+                  <tr>
+                  <td>54</td>
+                  <td>MOTHER’S DAY</td>
+                  <td>DANCE &amp; MUSIC CLUB</td>
+                  </tr>
+                  <tr>
+                  <td>55</td>
+                  <td>SHE INSPIRES</td>
+                  <td>WISE</td>
+                  </tr>
+                  <tr>
+                  <td>56</td>
+                  <td>WAR OF THOUGHTS</td>
+                  <td>WISE</td>
+                  </tr>
+                  <tr>
+                  <td>57</td>
+                  <td>Armed Quizzy</td>
+                  <td>WISE</td>
+                  </tr>
+                  <tr>
+                  <td>58</td>
+                  <td>Turnabout</td>
+                  <td>WISE</td>
+                  </tr>
+                  <tr>
+                  <td>59</td>
+                  <td>Sciencetien</td>
+                  <td>WISE</td>
+                  </tr>
+                  <tr>
+                  <td>60</td>
+                  <td>International Women’s Day Celebration</td>
+                  <td>WISE</td>
+                  </tr>
+                  <tr>
+                  <td>61</td>
+                  <td>Informal Interaction</td>
+                  <td>WISE</td>
+                  </tr>
+                  <tr>
+                  <td>62</td>
+                  <td>General Knowledge Discussion</td>
+                  <td>WISE</td>
+                  </tr>
+                  <tr>
+                  <td>63</td>
+                  <td>Super Moms</td>
+                  <td>WISE</td>
+                  </tr>
+                  <tr>
+                  <td>64</td>
+                  <td>National Webinar</td>
+                  <td>WISE</td>
+                  </tr>
+                  <tr>
+                  <td>65</td>
+                  <td>Photo Talk</td>
+                  <td>Perfect Pixel</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingNine">
+          <button class="accordion-button collapsed acc_btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+              2019-20
+          </button>
+        </h2>
+        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="table-responsive m-4 bg-light p-2">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">S.No</th>
+                    <th scope="col">Name of Activity</th>
+                    <th scope="col">Club</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr> 
+                    <td>1</td>
+                    <td>Self Defense Activity</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Swachata Pakhwada</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Visit to Old Age Home, “Pushpanjali”,</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Awareness program under JSA at Vidhani Village, Jaipur</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>Blood Donation</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Session on Vocal For Local</td>
+                    <td>Helping Hands</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
