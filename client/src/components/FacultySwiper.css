@@ -1,0 +1,24 @@
+/* components/FacultySwiper.css */
+
+.faculty-swiper .swiper-button-prev,
+.faculty-swiper .swiper-button-next {
+  color: white;
+  background-color: #cc0000; /* Blue-800 or your custom Tailwind color */
+  padding: 12px;
+  border-radius: 9999px;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+ 
+}
+
+.faculty-swiper .swiper-button-prev::after,
+.faculty-swiper .swiper-button-next::after {
+  font-size: 18px;
+}
+
+/* Optional: Custom hover effect */
+.faculty-swiper .swiper-button-prev:hover,
+.faculty-swiper .swiper-button-next:hover {
+  background-color: #cc0000; /* Slightly lighter blue */
+}
