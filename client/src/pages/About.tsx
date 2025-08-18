@@ -314,9 +314,6 @@ const About = () => {
                 </div>
             </div>
 
-            {/* Why Choose PIET Section */}
-            <WhyChoosePIET />
-
             {/* Enhanced Vision and Mission Section */}
             <div className="bg-gradient-to-br from-primary/5 to-secondary/5 py-20 mb-20">
                 <div className="container mx-auto px-4 lg:px-0">
