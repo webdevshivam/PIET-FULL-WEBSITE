@@ -692,12 +692,7 @@ export default function Header() {
                   >
                     <i className="fas fa-file-alt mr-2"></i>Annual Report
                   </Link>
-                  <Link
-                    href="/annual-account"
-                    className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
-                  >
-                    <i className="fas fa-calculator mr-2"></i>Annual Account
-                  </Link>
+
                   <Link
                     href="/recognization"
                     className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
@@ -1998,8 +1993,14 @@ export default function Header() {
             {/* Header with small branding + close */}
             <div className="flex items-center justify-between px-4 py-3 border-b border-gray-100">
               <div className="flex items-center space-x-3">
-                <img src="/images/logo/pietlogo.png" alt="PIET Logo" className="h-8 w-auto" />
-                <span className="text-lg font-semibold text-primary">Search</span>
+                <img
+                  src="/images/logo/pietlogo.png"
+                  alt="PIET Logo"
+                  className="h-8 w-auto"
+                />
+                <span className="text-lg font-semibold text-primary">
+                  Search
+                </span>
               </div>
               <button
                 onClick={toggleSearchModal}
@@ -2049,9 +2050,15 @@ export default function Header() {
                     >
                       <div className="flex items-center justify-between">
                         <div>
-                          <div className="text-sm text-gray-500 mb-1">{item.category}</div>
-                          <div className="font-medium text-gray-800">{item.title}</div>
-                          <div className="text-xs text-gray-600 mt-1">{item.description}</div>
+                          <div className="text-sm text-gray-500 mb-1">
+                            {item.category}
+                          </div>
+                          <div className="font-medium text-gray-800">
+                            {item.title}
+                          </div>
+                          <div className="text-xs text-gray-600 mt-1">
+                            {item.description}
+                          </div>
                         </div>
                         <i className="fas fa-arrow-right text-gray-400 ml-3"></i>
                       </div>
