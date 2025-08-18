@@ -20,6 +20,18 @@ const WhyChoosePIET = () => {
       title: "State-of-the-Art Labs",
       description: "Access cutting-edge laboratories equipped with modern technology for hands-on learning and research.",
       color: "from-green-500 to-teal-500"
+    },
+    {
+      icon: "fas fa-building",
+      title: "State-of-the-Art Infrastructure",
+      description: "Modern campus facilities with advanced classrooms, auditoriums, libraries, and recreational spaces designed for optimal learning.",
+      color: "from-orange-500 to-red-500"
+    },
+    {
+      icon: "fas fa-briefcase",
+      title: "Excellent Placement Records",
+      description: "Outstanding placement opportunities with top-tier companies and industry leaders, ensuring bright career prospects for students.",
+      color: "from-indigo-500 to-purple-500"
     }
   
   ];
