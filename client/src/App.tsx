@@ -80,6 +80,7 @@ import Messages from "./pages/Messages";
 import AdmissionFees from "./pages/AdmissionFees";
 import IPRCell from './pages/IPRCell';
 import IndustryInstituteInnovation from './pages/IndustryInstituteInnovation';
+import ResearchActivities from './pages/ResearchActivities';
 import QSGaugePage from "./pages/QSGauge";
 import Qiv from "./pages/Qiv";
 import TimesRanking from "./pages/TimesRanking";
@@ -139,6 +140,7 @@ function Router() {
         <Route path="/iprs" component={IPRList} />
         <Route path="/ipr-cell" component={IPRCell} />
         <Route path="/industry-institute-innovation" component={IndustryInstituteInnovation} />
+        <Route path="/research-activities" component={ResearchActivities} />
         <Route path="/pbic" component={pbic} />
         <Route path="/sports" component={SportsFacilities} />
         <Route path="/hostel-facilties" component={HostelFacilities} />

@@ -912,7 +912,7 @@ export default function Header() {
                   </Link>
 
                   <Link
-                    href="/activities"
+                    href="/research-activities"
                     className="block p-3 text-neutral-800 hover:bg-primary hover:text-white transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
                   >
                     <i className="fas fa-chart-line mr-2"></i>Research
@@ -1102,7 +1102,7 @@ export default function Header() {
                 <i className="fas fa-user-graduate mr-2"></i>Student Life
                 <i className="fas fa-chevron-down ml-2 text-xs"></i>
               </a>
-              <div className="absolute left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 z-50 max-h-96 overflow-y-auto opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+              <div className="absolute right-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 z-50 max-h-96 overflow-y-auto opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 <div className="py-2">
                   <Link
                     href="/sports"
@@ -1627,7 +1627,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/activities"
+                  href="/research-activities"
                   className="block py-2 hover:text-secondary transition-colors"
                 >
                   <i className="fas fa-chart-line mr-2"></i>Research Activities
