@@ -109,11 +109,7 @@ export default function HeroSlider() {
               alt={banner.title}
               className="w-full h-full object-cover object-center"
               loading={index === 0 ? "eager" : "lazy"}
-            /></div>
-
-
-            {/* Banner title overlay */}
-
+            />
           </div>
         ))}
 
