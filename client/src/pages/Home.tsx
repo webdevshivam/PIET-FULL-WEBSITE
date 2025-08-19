@@ -22,7 +22,7 @@ export default function Home() {
       <AccessibilityFeatures />
       <ConnectionStatus />
       <Header />
-      <main id="main-content">
+      <main id="main-content" className="pt-16"> {/* Added pt-16 for header spacing */}
         <HeroSlider />
         <QuickLinks />
         <AboutSection />

@@ -1,6 +1,11 @@
 import React from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import Cta from '../components/Cta';
 import BreadCrumb from '../components/BreadCrumb';
 import LazyImage from '../components/LazyImage';
+import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
+import ProfileMessageSection from '../components/ProfileMessageSection';
 
 const IIC: React.FC = () => {
   const breadcrumbItems = [

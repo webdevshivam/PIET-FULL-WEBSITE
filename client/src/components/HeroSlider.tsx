@@ -91,7 +91,7 @@ export default function HeroSlider() {
 
   return (
     <section className="hero-slider relative overflow-hidden">
-      <div ref={slideContainerRef} className="slider-container h-full">
+      <div ref={slideContainerRef} className="slider-container h-full mt-24">
         {banners.map((banner, index) => (
           <div
             key={banner._id}
