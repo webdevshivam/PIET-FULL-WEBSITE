@@ -50,7 +50,7 @@ export default function HeroSlider() {
   // Show skeleton loading while fetching banners
   if (isLoading) {
     return (
-      <section className="hero-slider mt-16rem relative overflow-hidden">
+      <section className="hero-slider  relative overflow-hidden">
         <div
           ref={slideContainerRef}
           className="slider-container h-[300px] sm:h-[400px] md:h-[500px] lg:h-[560px] w-full mt-16 sm:mt-20 md:mt-24 lg:mt-32"
