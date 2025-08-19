@@ -50,21 +50,11 @@ export default function HeroSlider() {
   // Show skeleton loading while fetching banners
   if (isLoading) {
     return (
-      <section className="hero-slider relative overflow-hidden">
+      <section className="hero-slider mt-16rem relative overflow-hidden">
         <div
           ref={slideContainerRef}
-          className="slider-container h-[300px] sm:h-[400px] md:h-[500px] lg:h-[560px] w-full"
+          className="slider-container h-[300px] sm:h-[400px] md:h-[500px] lg:h-[560px] w-full mt-16 sm:mt-20 md:mt-24 lg:mt-32"
         >
-          <style>
-            {`
-              /* Mobile specific padding for hero slider */
-              @media (max-width: 768px) {
-                .hero-slider .slider-container {
-                  padding-top: 18rem !important;
-                }
-              }
-            `}
-          </style>
           <div className="h-full bg-gray-200 relative">
             <Skeleton className="w-full h-full" />
             <div className="absolute inset-0 flex items-center justify-center">
@@ -85,18 +75,8 @@ export default function HeroSlider() {
       <section className="hero-slider relative overflow-hidden">
         <div
           ref={slideContainerRef}
-          className="slider-container h-[300px] sm:h-[400px] md:h-[500px] lg:h-[560px] w-full"
+          className="slider-container h-[300px] sm:h-[400px] md:h-[500px] lg:h-[560px] w-full mt-16 sm:mt-20 md:mt-24 lg:mt-32"
         >
-          <style>
-            {`
-              /* Mobile specific padding for hero slider */
-              @media (max-width: 768px) {
-                .hero-slider .slider-container {
-                  padding-top: 18rem !important;
-                }
-              }
-            `}
-          </style>
           <div className="h-full bg-gradient-to-r from-primary to-secondary flex items-center justify-center">
             <div className="text-center text-white px-4">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-4">
@@ -116,18 +96,8 @@ export default function HeroSlider() {
     <section className="hero-slider relative overflow-hidden">
       <div
         ref={slideContainerRef}
-        className="slider-container h-[300px] sm:h-[400px] md:h-[500px] lg:h-[560px] w-full"
+        className="slider-container h-[300px] sm:h-[400px] md:h-[500px] lg:h-[560px] w-full mt-16 sm:mt-20 md:mt-24 lg:mt-32"
       >
-        <style>
-          {`
-            /* Mobile specific padding for hero slider */
-            @media (max-width: 768px) {
-              .hero-slider .slider-container {
-                padding-top: 18rem !important;
-              }
-            }
-          `}
-        </style>
         {banners.map((banner, index) => (
           <div
             key={banner._id}
