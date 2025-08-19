@@ -26,7 +26,7 @@ const BreadCrumb: React.FC<BreadCrumbProps> = ({
     breadcrumbs,
 }) => {
     return (
-        <div className="relative mt-24">
+        <div className="relative mt-32">
             <img
                 src={backgroundImage}
                 alt={`${title} Banner`}
