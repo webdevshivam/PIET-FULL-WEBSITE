@@ -455,6 +455,11 @@
   margin-top: 16rem !important;
 }
 
+/* Desktop padding for hero slider */
+.hero-slider .slider-container {
+  padding-top: 16rem !important;
+}
+
 /* Mobile specific padding for hero slider */
 @media (max-width: 768px) {
   .hero-slider .slider-container {
