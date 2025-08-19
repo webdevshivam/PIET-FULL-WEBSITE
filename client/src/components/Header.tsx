@@ -2006,6 +2006,799 @@ export default function Header() {
         </ul>
       </div>
 
+      {/* Mobile Menu */}
+      <div
+        className={`bg-white shadow-xl md:hidden rounded-b-lg ${mobileMenuOpen ? "block" : "hidden"}`}
+      >
+        <ul className="px-4">
+          <li>
+            <Link href="/">
+              <a className="block py-3 border-b border-neutral-200 hover:text-primary transition-colors">
+                <i className="fas fa-home mr-2"></i>Home
+              </a>
+            </Link>
+          </li>
+          <li className="py-3 border-b border-neutral-200">
+            <div className="flex justify-between items-center">
+              <a href="#" className="hover:text-primary transition-colors">
+                <i className="fas fa-university mr-2"></i>About
+              </a>
+              <button
+                className="mobile-submenu-toggle text-primary"
+                onClick={() => toggleMobileSubmenu("about")}
+              >
+                <i
+                  className={`fas fa-chevron-${mobileSubmenuState.about ? "up" : "down"}`}
+                ></i>
+              </button>
+            </div>
+            <ul
+              className={`pl-4 mt-2 ${mobileSubmenuState.about ? "block" : "hidden"}`}
+            >
+              <li>
+                <Link
+                  href="/about"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-info-circle mr-2"></i>About PIET
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/director-message"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-user-tie mr-2"></i>Director's Message
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/messages"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-envelope mr-2"></i>Messages
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1cFORo7Udcbnw7OqiDXs4eenTXl1Ur7H5/view?usp=sharing"
+                  target="_blank"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-info-circle mr-2"></i>Institutional
+                  Development Plan
+                </a>
+              </li>
+              <li>
+                <Link
+                  href="/sponsering-body"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-handshake mr-2"></i>Sponsoring Body
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1sSR8B4kEzt1Ize_lfLveVmmtil6XTeUd/view?usp=sharing"
+                  target="_blank"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-info-circle mr-2"></i>Institutional
+                  OutReach Plan
+                </a>
+              </li>
+              <li>
+                <Link
+                  href="/organogram"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-project-diagram mr-2"></i>Organogram
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/advisery-board"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-users-cog mr-2"></i>Advisory Board
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/governing-council"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-gavel mr-2"></i>Governing Council
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/management-team"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-users mr-2"></i>Management Team
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/annual-report"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-file-alt mr-2"></i>Annual Report
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/annual-account"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-calculator mr-2"></i>Annual Account
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/recognization"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-calculator mr-2"></i>Recognization &
+                  Approvals
+                </Link>
+              </li>
+            </ul>
+          </li>
+          <li className="py-3 border-b border-neutral-200">
+            <div className="flex justify-between items-center">
+              <a href="#" className="hover:text-primary transition-colors">
+                <i className="fas fa-university mr-2"></i>Administrator
+              </a>
+              <button
+                className="mobile-submenu-toggle text-primary"
+                onClick={() =>
+                  setMobileSubmenuState((prev) => ({
+                    ...prev,
+                    admin: !prev.admin,
+                  }))
+                }
+              >
+                <i
+                  className={`fas fa-chevron-${mobileSubmenuState.admin ? "up" : "down"}`}
+                ></i>
+              </button>
+            </div>
+            <ul
+              className={`pl-4 mt-2 ${mobileSubmenuState.admin ? "block" : "hidden"}`}
+            >
+              <li>
+                <span
+                  onClick={() => (window.location.href = "/director-message")}
+                  className="block py-2 hover:text-secondary transition-colors cursor-pointer"
+                >
+                  <i className="fas fa-user-tie mr-2"></i>Principal
+                </span>
+              </li>
+              <li>
+                <span
+                  onClick={() => (window.location.href = "/registar-message")}
+                  className="block py-2 hover:text-secondary transition-colors cursor-pointer"
+                >
+                  <i className="fas fa-clipboard-user mr-2"></i>Registrar
+                </span>
+              </li>
+              <li>
+                <Link
+                  href="/coe-message"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-clipboard-check mr-2"></i>Controller
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/governing-council"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-users-cog mr-2"></i>Council
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/complaints"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-exclamation-triangle mr-2"></i>Complaints
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/complaints-registration"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-edit mr-2"></i>Submit Complaint
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/management-team"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-users mr-2"></i>Management Team
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/cells-committees"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-sitemap mr-2"></i>Cells & Committees
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/nep"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-book mr-2"></i>NEP 2020
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/organogram"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-project-diagram mr-2"></i>Organogram
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/obe"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-cogs mr-2"></i>OBE
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/rules-regulation"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-gavel mr-2"></i>Rules
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/145iDgqszkMq3-IjjSMjfckJrmEhEGp-I/view?usp=sharing"
+                  target="_blank"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-chalkboard-teacher mr-2"></i>Teaching
+                  Learning Process
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li className="py-3 border-b border-neutral-200">
+            <div className="flex justify-between items-center">
+              <a href="#" className="hover:text-primary transition-colors">
+                <i className="fas fa-book-open mr-2"></i>Academics
+              </a>
+              <button
+                className="mobile-submenu-toggle text-primary"
+                onClick={() => toggleMobileSubmenu("academics")}
+              >
+                <i
+                  className={`fas fa-chevron-${mobileSubmenuState.academics ? "up" : "down"}`}
+                ></i>
+              </button>
+            </div>
+            <ul
+              className={`pl-4 mt-2 ${mobileSubmenuState.academics ? "block" : "hidden"}`}
+            >
+              <li>
+                <Link
+                  href="/calendar"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-calendar-alt mr-2"></i>Academic Calendar
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/applied-sceince"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-flask mr-2"></i>Applied Sciences
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/artificial-intelligence"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-robot mr-2"></i>AI & Data Science
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/computer-science"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-laptop-code mr-2"></i>Computer Eng.
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/dep-iot"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-wifi mr-2"></i>Internet of Things
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/collbration"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-handshake mr-2"></i>Collaborations
+                </Link>
+              </li>
+            </ul>
+          </li>
+          <li className="py-3 border-b border-neutral-200">
+            <div className="flex justify-between items-center">
+              <a href="#" className="hover:text-primary transition-colors">
+                <i className="fas fa-microscope mr-2"></i>Research
+              </a>
+              <button
+                className="mobile-submenu-toggle text-primary"
+                onClick={() =>
+                  setMobileSubmenuState((prev) => ({
+                    ...prev,
+                    research: !prev.research,
+                  }))
+                }
+              >
+                <i
+                  className={`fas fa-chevron-${mobileSubmenuState.research ? "up" : "down"}`}
+                ></i>
+              </button>
+            </div>
+            <ul
+              className={`pl-4 mt-2 ${mobileSubmenuState.research ? "block" : "hidden"}`}
+            >
+              <li>
+                <Link
+                  href="/research-development"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-microscope mr-2"></i>R&D Cell
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/pbic"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-seedling mr-2"></i>Business Incubation
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/ideal-lab"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-lightbulb mr-2"></i>IDEA Lab
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/conferences"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-users mr-2"></i>Conference
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/funding"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-hand-holding-usd mr-2"></i>Fundings
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/iprs"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-shield-alt mr-2"></i>IPRs
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/research-activities"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-chart-line mr-2"></i>Research Activities
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/publications"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-book-open mr-2"></i>Publications
+                </Link>
+              </li>
+            </ul>
+          </li>
+          <li className="py-3 border-b border-neutral-200">
+            <div className="flex justify-between items-center">
+              <a href="#" className="hover:text-primary transition-colors">
+                <i className="fas fa-certificate mr-2"></i>Accreditation
+              </a>
+              <button
+                className="mobile-submenu-toggle text-primary"
+                onClick={() =>
+                  setMobileSubmenuState((prev) => ({
+                    ...prev,
+                    accreditation: !prev.accreditation,
+                  }))
+                }
+              >
+                <i
+                  className={`fas fa-chevron-${mobileSubmenuState.accreditation ? "up" : "down"}`}
+                ></i>
+              </button>
+            </div>
+            <ul
+              className={`pl-4 mt-2 ${mobileSubmenuState.accreditation ? "block" : "hidden"}`}
+            >
+              <li>
+                <Link
+                  href="/aishe"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-university mr-2"></i>AISHE
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/iso-certificate"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-certificate mr-2"></i>ISO Certificate
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/naac"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-star mr-2"></i>NAAC Grade 'A'
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/nba"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-award mr-2"></i>NBA
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/nirf"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-chart-bar mr-2"></i>NIRF
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/qs-gauge"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-globe-americas mr-2"></i>QS I-Gauge
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/qiv-ranking"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-trophy mr-2"></i>QIV Ranking
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/times-ranking"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-book mr-2"></i>Times Ranking
+                </Link>
+              </li>
+            </ul>
+          </li>
+          <li className="py-3 border-b border-neutral-200">
+            <div className="flex justify-between items-center">
+              <a href="#" className="hover:text-primary transition-colors">
+                <i className="fas fa-network-wired mr-2"></i>Chapters
+              </a>
+              <button
+                className="mobile-submenu-toggle text-primary"
+                onClick={() =>
+                  setMobileSubmenuState((prev) => ({
+                    ...prev,
+                    chapters: !prev.chapters,
+                  }))
+                }
+              >
+                <i
+                  className={`fas fa-chevron-${mobileSubmenuState.chapters ? "up" : "down"}`}
+                ></i>
+              </button>
+            </div>
+            <ul
+              className={`pl-4 mt-2 ${mobileSubmenuState.chapters ? "block" : "hidden"}`}
+            >
+              <li>
+                <Link
+                  href="/iee"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-microchip mr-2"></i>IEEE
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/acm"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-laptop-code mr-2"></i>ACM
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/iete"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-satellite-dish mr-2"></i>IETE
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/iste"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-graduation-cap mr-2"></i>ISTE
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/conference"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-users mr-2"></i>Student Council
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/electoral-literacy-forum"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-vote-yea mr-2"></i>Electoral Literacy
+                  Forum
+                </Link>
+              </li>
+            </ul>
+          </li>
+          <li className="py-3 border-b border-neutral-200">
+            <div className="flex justify-between items-center">
+              <a href="#" className="hover:text-primary transition-colors">
+                <i className="fas fa-lightbulb mr-2"></i>Innovation
+              </a>
+              <button
+                className="mobile-submenu-toggle text-primary"
+                onClick={() =>
+                  setMobileSubmenuState((prev) => ({
+                    ...prev,
+                    innovation: !prev.innovation,
+                  }))
+                }
+              >
+                <i
+                  className={`fas fa-chevron-${mobileSubmenuState.innovation ? "up" : "down"}`}
+                ></i>
+              </button>
+            </div>
+            <ul
+              className={`pl-4 mt-2 ${mobileSubmenuState.innovation ? "block" : "hidden"}`}
+            >
+              <li>
+                <Link
+                  href="/complaints"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-shield-alt mr-2"></i>ICC
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/ipr-cell"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-shield-alt mr-2"></i>IPR Cell
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/industry-institute-innovation"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-users mr-2"></i>Industry Institute
+                  Innovation
+                </Link>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <Link
+              href="/admission-fees"
+              className="block py-4 px-5 text-white hover:bg-primary-light font-medium transition-colors"
+            >
+              <i className="fas fa-graduation-cap mr-2"></i>Admission & Fees
+            </Link>{" "}
+          </li>
+          <li className="py-3 border-b border-neutral-200">
+            <div className="flex justify-between items-center">
+              <a href="#" className="hover:text-primary transition-colors">
+                <i className="fas fa-user-graduate mr-2"></i>Student Life
+              </a>
+              <button
+                className="mobile-submenu-toggle text-primary"
+                onClick={() =>
+                  setMobileSubmenuState((prev) => ({
+                    ...prev,
+                    studentLife: !prev.studentLife,
+                  }))
+                }
+              >
+                <i
+                  className={`fas fa-chevron-${mobileSubmenuState.studentLife ? "up" : "down"}`}
+                ></i>
+              </button>
+            </div>
+            <ul
+              className={`pl-4 mt-2 ${mobileSubmenuState.studentLife ? "block" : "hidden"}`}
+            >
+              <li>
+                <Link
+                  href="/sports"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-futbol mr-2"></i>Sports Zone
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/nss"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-hands-helping mr-2"></i>NSS Unit
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1VEIAJ8dgTDsxpj6RicdpVX7jMwFLBOIr/view?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-users mr-2"></i>SEDG Cell
+                </a>
+              </li>
+              <li>
+                <Link
+                  href="/hostel-life"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-bed mr-2"></i>Hostel Life
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/placements"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-briefcase mr-2"></i>Placements
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/greviance"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-comments mr-2"></i>Grievance Cell
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/health"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-heartbeat mr-2"></i>Health Care
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/complaints"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-balance-scale mr-2"></i>Complaints
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/complaints-registration"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-edit mr-2"></i>Submit Complaint
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/greviance"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-ban mr-2"></i>Anti Ragging
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1H-G1_SYhblhZ4O-q7tUHPLKVo8yYYwT3/view?usp=sharing"
+                  target="__blank"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-universal-access mr-2"></i>Equal Rights
+                </a>
+              </li>
+              <li>
+                <Link
+                  href="/disable"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-wheelchair mr-2"></i>Accessible Ed
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/annual-events"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-calendar-alt mr-2"></i>Annual Events
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/facilties"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-tools mr-2"></i>Campus Tools
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/hackathons"
+                  className="block py-2 hover:text-secondary transition-colors"
+                >
+                  <i className="fas fa-code mr-2"></i>Hackathons
+                </Link>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
       {/* REPLACE: compact search modal (no popular suggestions or defaults.
                 Shows only when user has typed something.) */}
       {isSearchOpen && (

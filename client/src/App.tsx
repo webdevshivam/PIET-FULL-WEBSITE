@@ -148,6 +148,57 @@ function Router() {
         <Route path="/calendar" component={CalendarPage} />
         <Route path="/student-council" component={StudentCouncil} />
         <Route path="/not-found" component={NotFound} />
+        <Route path="/pbic" component={pbic} />
+        <Route path="/sports" component={SportsFacilities} />
+        <Route path="/hostel-facilties" component={HostelFacilities} />
+        <Route path="/placements" component={PlacementPage} />
+        <Route path="/greviance" component={Grievances} />
+        <Route path="/icc-page" component={ICCPage} />
+        <Route path="/icc" component={ICC} />
+        <Route path="/interaction" component={Interaction} />
+        <Route path="/literacy-form" component={LiteracyForm} />
+        <Route path="/literacy-forum" component={LiteracyForum} />
+        <Route path="/acm" component={AcmChapter} />
+        <Route path="/annual-events" component={AnnualEventsPage} />
+        <Route path="/governing-council" component={GoverningCouncil} />
+        <Route path="/nba" component={NbaPage} />
+        <Route path="/obe" component={OBEPage} />
+        <Route path="/nep" component={NEPPage} />
+        <Route path="/naac" component={NaacFirstCycle} />
+        <Route path="/nirf" component={NirfPage} />
+        <Route path="/qiv-ranking" component={QivRankingPage} />
+        <Route path="/times-ranking" component={TimesRankingPage} />
+        <Route path="/e-library" component={ELibrary} />
+        <Route path="/obe" component={OBE} />
+        <Route path="/event-page" component={EventPage} />
+        <Route path="/iqac" component={IQACPage} />
+        <Route path="/hostel-life" component={HostelLife} />
+        <Route path="/iete" component={IETEPage} />
+        <Route path="/iee" component={IEEEPage} />
+        <Route path="/iste" component={ISTEPage} />
+        <Route path="/ideal-lab" component={IdealLab} />
+        <Route path="/piet-iste" component={PIETISTE} />
+        <Route path="/nss" component={NSS} />
+        <Route path="/health" component={Health} />
+        <Route path="/disable" component={Disables} />
+        <Route path="/facilties" component={Facilties} />
+        <Route path="/publications" component={Publications} />
+        <Route path="/iic" component={IIC} />
+        <Route path="/mission-vision" component={MissionVision} />
+        <Route path="/admission-fees" component={AdmissionFees} />
+        <Route path="/ipr-cell" component={IPRCell} />
+        <Route path="/industry-institute-innovation" component={IndustryInstituteInnovation} />
+        <Route path="/research-activities" component={ResearchActivities} />
+        <Route path="/qs-gauge" component={QSGaugePage} />
+        <Route path="/qiv" component={Qiv} />
+        <Route path="/times-ranking" component={TimesRanking} />
+        <Route path="/aishe" component={AISHEPage} />
+        <Route path="/iso-certificate" component={ISOCertificatePage} />
+        <Route path="/electoral-literacy-forum" component={ElectoralLiteracyForum} />
+        <Route path="/hackathons" component={Hackathons} />
+        <Route path="/student-council" component={StudentCouncil} />
+        <Route path="/conference" component={StudentCouncil} />
+        <Route path="/careers" component={About} />
         <Route>
           <NotFound />
         </Route>
