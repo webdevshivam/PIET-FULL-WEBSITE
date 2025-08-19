@@ -13,7 +13,7 @@ interface Banner {
 export default function HeroSlider() {
   const [banners, setBanners] = useState<Banner[]>([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState('');
+  const [error, setError] = useState("");
 
   const { currentSlide, goToSlide, nextSlide, prevSlide } = useSlider({
     totalSlides: banners.length,
@@ -22,8 +22,6 @@ export default function HeroSlider() {
 
   const slideContainerRef = useRef<HTMLDivElement>(null);
 
-  
-
   useEffect(() => {
     loadBanners();
   }, []);
@@ -31,10 +29,10 @@ export default function HeroSlider() {
   const loadBanners = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch('/api/banners');
+      const response = await fetch("/api/banners");
 
       if (!response.ok) {
-        throw new Error('Failed to fetch banners');
+        throw new Error("Failed to fetch banners");
       }
 
       const data = await response.json();
@@ -42,8 +40,8 @@ export default function HeroSlider() {
       // Banners are already filtered and sorted by the API
       setBanners(data.data);
     } catch (error) {
-      console.error('Error loading banners:', error);
-      setError('Failed to load banners');
+      console.error("Error loading banners:", error);
+      setError("Failed to load banners");
     } finally {
       setIsLoading(false);
     }
@@ -52,9 +50,9 @@ export default function HeroSlider() {
   // Show skeleton loading while fetching banners
   if (isLoading) {
     return (
-      <section className="hero-slider relative overflow-hidden">
-        <div 
-          ref={slideContainerRef} 
+      <section className="hero-slider mt-16rem relative overflow-hidden">
+        <div
+          ref={slideContainerRef}
           className="slider-container h-[300px] sm:h-[400px] md:h-[500px] lg:h-[560px] w-full mt-16 sm:mt-20 md:mt-24 lg:mt-32"
         >
           <div className="h-full bg-gray-200 relative">
@@ -75,14 +73,18 @@ export default function HeroSlider() {
   if (error || banners.length === 0) {
     return (
       <section className="hero-slider relative overflow-hidden">
-        <div 
-          ref={slideContainerRef} 
+        <div
+          ref={slideContainerRef}
           className="slider-container h-[300px] sm:h-[400px] md:h-[500px] lg:h-[560px] w-full mt-16 sm:mt-20 md:mt-24 lg:mt-32"
         >
           <div className="h-full bg-gradient-to-r from-primary to-secondary flex items-center justify-center">
             <div className="text-center text-white px-4">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-4">Welcome to PIET</h2>
-              <p className="text-lg sm:text-xl">Poornima Institute of Engineering & Technology</p>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-4">
+                Welcome to PIET
+              </h2>
+              <p className="text-lg sm:text-xl">
+                Poornima Institute of Engineering & Technology
+              </p>
             </div>
           </div>
         </div>
@@ -92,17 +94,18 @@ export default function HeroSlider() {
 
   return (
     <section className="hero-slider relative overflow-hidden">
-      <div 
-        ref={slideContainerRef} 
+      <div
+        ref={slideContainerRef}
         className="slider-container h-[300px] sm:h-[400px] md:h-[500px] lg:h-[560px] w-full mt-16 sm:mt-20 md:mt-24 lg:mt-32"
       >
         {banners.map((banner, index) => (
           <div
             key={banner._id}
-            className={`slide h-full w-full absolute inset-0 transition-all duration-1000 ${index === currentSlide
+            className={`slide h-full w-full absolute inset-0 transition-all duration-1000 ${
+              index === currentSlide
                 ? "opacity-100 z-10 scale-100"
                 : "opacity-0 z-0 scale-105"
-              }`}
+            }`}
           >
             <img
               src={banner.imageUrl}
@@ -139,10 +142,11 @@ export default function HeroSlider() {
                 <button
                   key={index}
                   onClick={() => goToSlide(index)}
-                  className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full focus:outline-none transition-all duration-300 shadow-md ${index === currentSlide
+                  className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full focus:outline-none transition-all duration-300 shadow-md ${
+                    index === currentSlide
                       ? "bg-primary w-4 sm:w-6 md:w-8"
                       : "bg-white/80 hover:bg-white border border-gray-300"
-                    }`}
+                  }`}
                   aria-label={`Go to slide ${index + 1}`}
                 />
               ))}
